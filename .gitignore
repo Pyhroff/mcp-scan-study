@@ -5,3 +5,5 @@ __pycache__/
 .pytest_cache/
 *.egg-info/
 RESUME_BULLETS.md
+patches/mcpaudit-0.7/
+patches/memsentry-1.1/
