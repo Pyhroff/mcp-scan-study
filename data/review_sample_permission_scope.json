@@ -1,0 +1,402 @@
+[
+ {
+  "repo": "ooples/token-optimizer-mcp",
+  "tool": "smart_cache_api",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'smart_cache_api' looks like it performs filesystem access but its parameter(s) ['url'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "ooples__token-optimizer-mcp/src/tools/api-database/smart-cache-api.ts",
+  "description": "API Response Caching with 83% token reduction through intelligent cache management.\n\nFeatures:\n- Multiple caching strategies (TTL, ETag, Event-based, LRU, Size-based)\n- Intelligent cache key generation with query normalization\n- Pattern-based and tag-based invalidation\n- Stale-while-revalidate support\n- Cache hit rate analysis and recommendations\n- Cache warming and preloading\n\nActions:\n- get: Ret"
+ },
+ {
+  "repo": "AnkleBreaker-Studio/unity-mcp-server",
+  "tool": "unity_animation_remove_curve",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'unity_animation_remove_curve' looks like it performs filesystem access but its parameter(s) ['clipPath', 'relativePath'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "AnkleBreaker-Studio__unity-mcp-server/src/tools/editor-tools.js",
+  "description": "Remove an entire animation curve binding from a clip. Useful for cleaning up or restructuring animations."
+ },
+ {
+  "repo": "0x4m4/hexstrike-ai",
+  "tool": "hashcat_crack",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped arbitrary code/command execution",
+  "detail": "Tool 'hashcat_crack' looks like it performs arbitrary code/command execution but its parameter(s) ['hash_file'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "0x4m4__hexstrike-ai/hexstrike_mcp.py",
+  "description": "Execute Hashcat for advanced password cracking with enhanced logging.\n\nArgs:\n    hash_file: File containing password hashes\n    hash_type: Hash type number for Hashcat\n    attack_mode: Attack mode (0=dict, 1=combo, 3=mask, etc.)\n    wordlist: Wordlist file for dictionary attacks\n    mask: Mask for mask attacks\n    additional_args: Additional Hashcat arguments\n\nReturns:\n    Password cracking result"
+ },
+ {
+  "repo": "AnkleBreaker-Studio/unity-mcp-server",
+  "tool": "unity_animation_get_events",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'unity_animation_get_events' looks like it performs filesystem access but its parameter(s) ['clipPath'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "AnkleBreaker-Studio__unity-mcp-server/src/tools/editor-tools.js",
+  "description": "List all animation events on a clip with their function names, times, and parameters."
+ },
+ {
+  "repo": "tugcantopaloglu/godot-mcp",
+  "tool": "game_call_method",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'game_call_method' looks like it performs filesystem access but its parameter(s) ['nodePath', 'scenePath', 'parentPath'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "tugcantopaloglu__godot-mcp/src/index.ts",
+  "description": "Call a method on any node in the running game with optional arguments"
+ },
+ {
+  "repo": "0x4m4/hexstrike-ai",
+  "tool": "wfuzz_scan",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped arbitrary code/command execution",
+  "detail": "Tool 'wfuzz_scan' looks like it performs arbitrary code/command execution but its parameter(s) ['url'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "0x4m4__hexstrike-ai/hexstrike_mcp.py",
+  "description": "Execute Wfuzz for web application fuzzing with enhanced logging.\n\nArgs:\n    url: The target URL (use FUZZ where you want to inject payloads)\n    wordlist: Wordlist file to use\n    additional_args: Additional Wfuzz arguments\n\nReturns:\n    Web application fuzzing results"
+ },
+ {
+  "repo": "awslabs/mcp",
+  "tool": "GetSecurityFindings",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped arbitrary code/command execution",
+  "detail": "Tool 'GetSecurityFindings' looks like it performs arbitrary code/command execution but its parameter(s) ['aws_profile'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "awslabs__mcp/src/well-architected-security-mcp-server/awslabs/well_architected_security_mcp_server/server.py",
+  "description": "Retrieve security findings from AWS security services.\n\nThis tool provides a consolidated interface to retrieve findings from various AWS security\nservices, including GuardDuty, Security Hub, Inspector, IAM Access Analyzer, and Trusted Advisor.\n\nIt first checks if the specified security service is enabled in the region (using data from\na previous CheckSecurityServices call) and only retrieves find"
+ },
+ {
+  "repo": "AnkleBreaker-Studio/unity-mcp-server",
+  "tool": "unity_scene_save",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'unity_scene_save' looks like it performs filesystem access but its parameter(s) ['path'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "AnkleBreaker-Studio__unity-mcp-server/src/tools/editor-tools.js",
+  "description": "Save the current scene. A never-saved scene requires `path` (saving without one would "
+ },
+ {
+  "repo": "ruvnet/ruflo",
+  "tool": "browser/screenshot",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'browser/screenshot' looks like it performs filesystem access but its parameter(s) ['path'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "ruvnet__ruflo/v3/@claude-flow/browser/src/mcp-tools/browser-tools.ts",
+  "description": "Capture screenshot. Returns base64 PNG if no path specified."
+ },
+ {
+  "repo": "tugcantopaloglu/godot-mcp",
+  "tool": "create_script",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'create_script' looks like it performs filesystem access but its parameter(s) ['projectPath', 'scenePath', 'sourcePath', 'targetPath'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "tugcantopaloglu__godot-mcp/src/index.ts",
+  "description": "Create a GDScript file from a template"
+ },
+ {
+  "repo": "tugcantopaloglu/godot-mcp",
+  "tool": "manage_translations",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'manage_translations' looks like it performs filesystem access but its parameter(s) ['nodePath'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "tugcantopaloglu__godot-mcp/src/index.ts",
+  "description": "List/add/remove translation files in project"
+ },
+ {
+  "repo": "tugcantopaloglu/godot-mcp",
+  "tool": "validate_script",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'validate_script' looks like it performs filesystem access but its parameter(s) ['scriptPath', 'projectPath'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "tugcantopaloglu__godot-mcp/src/index.ts",
+  "description": "Check a GDScript file for syntax/type errors (headless, no run)"
+ },
+ {
+  "repo": "0x4m4/hexstrike-ai",
+  "tool": "jwt_analyzer",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped outbound network access",
+  "detail": "Tool 'jwt_analyzer' looks like it performs outbound network access but its parameter(s) ['target_url'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "0x4m4__hexstrike-ai/hexstrike_mcp.py",
+  "description": "Advanced JWT token analysis and vulnerability testing.\n\nArgs:\n    jwt_token: JWT token to analyze\n    target_url: Optional target URL for testing token manipulation\n\nReturns:\n    JWT analysis results with vulnerability assessment and attack vectors"
+ },
+ {
+  "repo": "tugcantopaloglu/godot-mcp",
+  "tool": "game_change_scene",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'game_change_scene' looks like it performs filesystem access but its parameter(s) ['scenePath'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "tugcantopaloglu__godot-mcp/src/index.ts",
+  "description": "Switch to a different scene file in the running game"
+ },
+ {
+  "repo": "AnkleBreaker-Studio/unity-mcp-server",
+  "tool": "unity_ui_set_text",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'unity_ui_set_text' looks like it performs filesystem access but its parameter(s) ['path'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "AnkleBreaker-Studio__unity-mcp-server/src/tools/editor-tools.js",
+  "description": "Set properties on a UI Text component (text content, fontSize, color, alignment)."
+ },
+ {
+  "repo": "tugcantopaloglu/godot-mcp",
+  "tool": "manage_input_map",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'manage_input_map' looks like it performs filesystem access but its parameter(s) ['projectPath'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "tugcantopaloglu__godot-mcp/src/index.ts",
+  "description": "Add, remove, or list input actions and bindings"
+ },
+ {
+  "repo": "awslabs/mcp",
+  "tool": "create_role",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'create_role' looks like it performs filesystem access but its parameter(s) ['path'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "awslabs__mcp/src/iam-mcp-server/awslabs/iam_mcp_server/server.py",
+  "description": "Create a new IAM role.\n\nArgs:\n    role_name: The name of the new IAM role\n    assume_role_policy_document: The trust policy document in JSON format\n    path: The path for the role (default: '/')\n    description: Optional description of the role\n    max_session_duration: Maximum session duration in seconds\n    permissions_boundary: Optional ARN of the permissions boundary policy\n    confirmed: Must"
+ },
+ {
+  "repo": "AnkleBreaker-Studio/unity-mcp-server",
+  "tool": "unity_prefab_apply_variant_override",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'unity_prefab_apply_variant_override' looks like it performs filesystem access but its parameter(s) ['assetPath'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "AnkleBreaker-Studio__unity-mcp-server/src/tools/editor-tools.js",
+  "description": "Apply overrides from a prefab variant back to its base prefab. Can apply all overrides or filter by componentType and/or gameObject path. This pushes the variant's changes into the base so all variants see them."
+ },
+ {
+  "repo": "ruvnet/ruflo",
+  "tool": "analyze_file-risk",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'analyze_file-risk' looks like it performs filesystem access but its parameter(s) ['path'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "ruvnet__ruflo/v3/@claude-flow/cli/src/mcp-tools/analyze-tools.ts",
+  "description": "Assess risk for a specific file change Use when native `git diff` / `grep` / static analysis is wrong because you want LLM-graded change classification, reviewer recommendations, or risk scoring. For literal-text inspection, native tools are fine."
+ },
+ {
+  "repo": "AnkleBreaker-Studio/unity-mcp-server",
+  "tool": "unity_prefab_add_component",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'unity_prefab_add_component' looks like it performs filesystem access but its parameter(s) ['prefabPath', 'assetPath'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "AnkleBreaker-Studio__unity-mcp-server/src/tools/editor-tools.js",
+  "description": "Add a component to a GameObject inside a prefab asset \u00e2\u20ac\u201d no scene instance needed. Supports built-in types (Rigidbody, BoxCollider, etc.) and custom scripts."
+ },
+ {
+  "repo": "tugcantopaloglu/godot-mcp",
+  "tool": "write_file",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'write_file' looks like it performs filesystem access but its parameter(s) ['filePath', 'projectPath', 'directoryPath'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "tugcantopaloglu__godot-mcp/src/index.ts",
+  "description": "Create or overwrite a text file in a Godot project"
+ },
+ {
+  "repo": "feder-cr/invisible_playwright_mcp",
+  "tool": "browser_navigate",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped outbound network access",
+  "detail": "Tool 'browser_navigate' looks like it performs outbound network access but its parameter(s) ['url'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "feder-cr__invisible_playwright_mcp/src/invisible_playwright_mcp/mcp/server.py",
+  "description": "Go to a url in this browser's page, opening it if none exists.\n\nAnswers with the HTTP status the server gave and the url actually landed\non, which is not always the one asked for: a redirect to a login wall or a\nregional domain shows up here. Read the status before trusting the page -\na 404 or a 403 still has a document, and reading it as content is the\nmistake this reply exists to prevent.\n\nwait_"
+ },
+ {
+  "repo": "AnkleBreaker-Studio/unity-mcp-server",
+  "tool": "unity_asset_instantiate_prefab",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'unity_asset_instantiate_prefab' looks like it performs filesystem access but its parameter(s) ['path'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "AnkleBreaker-Studio__unity-mcp-server/src/tools/editor-tools.js",
+  "description": "Instantiate a prefab into the current scene."
+ },
+ {
+  "repo": "tugcantopaloglu/godot-mcp",
+  "tool": "launch_editor",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'launch_editor' looks like it performs filesystem access but its parameter(s) ['projectPath', 'directory'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "tugcantopaloglu__godot-mcp/src/index.ts",
+  "description": "Launch Godot editor for a specific project"
+ },
+ {
+  "repo": "tugcantopaloglu/godot-mcp",
+  "tool": "game_manage_group",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'game_manage_group' looks like it performs filesystem access but its parameter(s) ['parentPath', 'nodePath'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "tugcantopaloglu__godot-mcp/src/index.ts",
+  "description": "Add or remove a node from a group, or list groups"
+ },
+ {
+  "repo": "AnkleBreaker-Studio/unity-mcp-server",
+  "tool": "unity_asmdef_remove_references",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'unity_asmdef_remove_references' looks like it performs filesystem access but its parameter(s) ['path'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "AnkleBreaker-Studio__unity-mcp-server/src/tools/editor-tools.js",
+  "description": "Remove assembly references from an existing .asmdef file."
+ },
+ {
+  "repo": "tugcantopaloglu/godot-mcp",
+  "tool": "create_csharp_script",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'create_csharp_script' looks like it performs filesystem access but its parameter(s) ['scriptPath', 'projectPath', 'path'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "tugcantopaloglu__godot-mcp/src/index.ts",
+  "description": "Create a C# script file in a Godot .NET project"
+ },
+ {
+  "repo": "AnkleBreaker-Studio/unity-mcp-server",
+  "tool": "unity_prefab_revert_overrides",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'unity_prefab_revert_overrides' looks like it performs filesystem access but its parameter(s) ['path', 'referencePath'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "AnkleBreaker-Studio__unity-mcp-server/src/tools/editor-tools.js",
+  "description": "Revert all overrides on a prefab instance, restoring it to match the source prefab."
+ },
+ {
+  "repo": "AnkleBreaker-Studio/unity-mcp-server",
+  "tool": "unity_spriteatlas_remove",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'unity_spriteatlas_remove' looks like it performs filesystem access but its parameter(s) ['assetPath', 'path'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "AnkleBreaker-Studio__unity-mcp-server/src/tools/editor-tools.js",
+  "description": "Remove packables from a SpriteAtlas."
+ },
+ {
+  "repo": "tugcantopaloglu/godot-mcp",
+  "tool": "game_multimesh",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'game_multimesh' looks like it performs filesystem access but its parameter(s) ['parentPath'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "tugcantopaloglu__godot-mcp/src/index.ts",
+  "description": "Create/configure MultiMeshInstance3D for instancing"
+ },
+ {
+  "repo": "ooples/token-optimizer-mcp",
+  "tool": "Bash",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped arbitrary code/command execution",
+  "detail": "Tool 'Bash' looks like it performs arbitrary code/command execution but its parameter(s) ['command'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "ooples__token-optimizer-mcp/bench/compression/fixtures.mjs",
+  "description": "Execute a shell command and return stdout, stderr, and exit status."
+ },
+ {
+  "repo": "ruvnet/ruflo",
+  "tool": "browser/plan-replay",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped arbitrary code/command execution",
+  "detail": "Tool 'browser/plan-replay' looks like it performs arbitrary code/command execution but its parameter(s) ['path'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "ruvnet__ruflo/v3/@claude-flow/browser/src/mcp-tools/signed-trajectory-tools.ts",
+  "description": "Plan a replay from a signed envelope with optional mutations (replaceStepInput / skipSteps / goal override). Does not execute the browser \u2014 produces an inspectable step plan for dry-run or downstream execution."
+ },
+ {
+  "repo": "AnkleBreaker-Studio/unity-mcp-server",
+  "tool": "unity_terrain_export_heightmap",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'unity_terrain_export_heightmap' looks like it performs filesystem access but its parameter(s) ['filePath'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "AnkleBreaker-Studio__unity-mcp-server/src/tools/editor-tools.js",
+  "description": "Export terrain heightmap to a RAW file or PNG texture."
+ },
+ {
+  "repo": "stickerdaniel/linkedin-mcp-server",
+  "tool": "send_message",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped arbitrary code/command execution",
+  "detail": "Tool 'send_message' looks like it performs arbitrary code/command execution but its parameter(s) ['profile_urn'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "stickerdaniel__linkedin-mcp-server/linkedin_mcp_server/tools/messaging.py",
+  "description": "Compose and send a new message to a LinkedIn user.\n\nProfile-based targeting opens LinkedIn's compose flow. It is not a safe\nreply path for an existing recruiter/InMail or messaging thread: it may\ncreate a separate DM even after you inspect that thread with\nget_conversation or search_conversations. Those tools only read an\nexisting thread; they do not send a reply. Until a thread-targeted send\npath"
+ },
+ {
+  "repo": "awslabs/mcp",
+  "tool": "session-sql",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped arbitrary code/command execution",
+  "detail": "Tool 'session-sql' looks like it performs arbitrary code/command execution but its parameter(s) ['query'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "awslabs__mcp/src/billing-cost-management-mcp-server/awslabs/billing_cost_management_mcp_server/tools/unified_sql_tools.py",
+  "description": "Execute SQL queries on the persistent session database.\n\nThis tool queries tables created by other tools (like cost_explorer_sql) within the current session.\nAll tools share the same database, allowing cross-tool data analysis and joins.\n\nUse this tool to:\n- Query tables created by cost_explorer_sql and other tools\n- Join data from multiple AWS APIs\n- Perform complex analysis across different data"
+ },
+ {
+  "repo": "ooples/token-optimizer-mcp",
+  "tool": "wiki_query",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped outbound network access",
+  "detail": "Tool 'wiki_query' looks like it performs outbound network access but its parameter(s) ['query', 'graphDir'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "ooples__token-optimizer-mcp/src/tools/intelligence/wiki-query.ts",
+  "description": "Read the project's knowledge graph: fetch a finding by key, search findings by "
+ },
+ {
+  "repo": "AnkleBreaker-Studio/unity-mcp-server",
+  "tool": "unity_spriteatlas_remove",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'unity_spriteatlas_remove' looks like it performs filesystem access but its parameter(s) ['path'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "AnkleBreaker-Studio__unity-mcp-server/src/tools/editor-tools.js",
+  "description": "Remove packables from a SpriteAtlas."
+ },
+ {
+  "repo": "tugcantopaloglu/godot-mcp",
+  "tool": "remove_scene_node",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'remove_scene_node' looks like it performs filesystem access but its parameter(s) ['scenePath', 'nodePath', 'projectPath'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "tugcantopaloglu__godot-mcp/src/index.ts",
+  "description": "Remove a node from a scene file (headless)"
+ },
+ {
+  "repo": "tugcantopaloglu/godot-mcp",
+  "tool": "game_get_property",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'game_get_property' looks like it performs filesystem access but its parameter(s) ['nodePath'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "tugcantopaloglu__godot-mcp/src/index.ts",
+  "description": "Get a property value from any node in the running game by its path"
+ },
+ {
+  "repo": "AnkleBreaker-Studio/unity-mcp-server",
+  "tool": "unity_execute_menu_item",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped arbitrary code/command execution",
+  "detail": "Tool 'unity_execute_menu_item' looks like it performs arbitrary code/command execution but its parameter(s) ['menuPath', 'path'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "AnkleBreaker-Studio__unity-mcp-server/src/tools/editor-tools.js",
+  "description": "Execute a Unity Editor menu command by its path (e.g. 'File/Save', 'GameObject/3D Object/Cube', 'Window/General/Console')."
+ }
+]

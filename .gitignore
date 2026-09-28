@@ -1,0 +1,7 @@
+_broken_corpus_delete_me/
+awesome.md
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+RESUME_BULLETS.md

@@ -1,0 +1,632 @@
+{
+ "D4Vinci/Scrapling": {
+  "lang": "python",
+  "stars": 84216,
+  "license": "BSD-3-Clause",
+  "url": "https://github.com/D4Vinci/Scrapling.git",
+  "pushed": "2026-09-27T15:18:03Z"
+ },
+ "sansan0/TrendRadar": {
+  "lang": "python",
+  "stars": 62589,
+  "license": "GPL-3.0",
+  "url": "https://github.com/sansan0/TrendRadar.git",
+  "pushed": "2026-09-13T06:38:25Z"
+ },
+ "feder-cr/invisible_playwright_mcp": {
+  "lang": "python",
+  "stars": 31690,
+  "license": "MIT",
+  "url": "https://github.com/feder-cr/invisible_playwright_mcp.git",
+  "pushed": "2026-09-25T13:53:08Z"
+ },
+ "oraios/serena": {
+  "lang": "python",
+  "stars": 29869,
+  "license": "NOASSERTION",
+  "url": "https://github.com/oraios/serena.git",
+  "pushed": "2026-09-24T08:57:40Z"
+ },
+ "assafelovic/gpt-researcher": {
+  "lang": "python",
+  "stars": 29658,
+  "license": "Apache-2.0",
+  "url": "https://github.com/assafelovic/gpt-researcher.git",
+  "pushed": "2026-09-26T17:46:25Z"
+ },
+ "modelcontextprotocol/python-sdk": {
+  "lang": "python",
+  "stars": 24422,
+  "license": "MIT",
+  "url": "https://github.com/modelcontextprotocol/python-sdk.git",
+  "pushed": "2026-09-25T09:25:15Z"
+ },
+ "1Panel-dev/MaxKB": {
+  "lang": "python",
+  "stars": 22885,
+  "license": "GPL-3.0",
+  "url": "https://github.com/1Panel-dev/MaxKB.git",
+  "pushed": "2026-09-28T12:20:30Z"
+ },
+ "modelscope/FunASR": {
+  "lang": "python",
+  "stars": 20532,
+  "license": "MIT",
+  "url": "https://github.com/modelscope/FunASR.git",
+  "pushed": "2026-09-28T12:55:07Z"
+ },
+ "Evil0ctal/Douyin_TikTok_Download_API": {
+  "lang": "python",
+  "stars": 20378,
+  "license": "Apache-2.0",
+  "url": "https://github.com/Evil0ctal/Douyin_TikTok_Download_API.git",
+  "pushed": "2026-09-23T06:36:37Z"
+ },
+ "wanshuiyin/Auto-claude-code-research-in-sleep": {
+  "lang": "python",
+  "stars": 16755,
+  "license": "MIT",
+  "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep.git",
+  "pushed": "2026-09-28T09:39:55Z"
+ },
+ "budtmo/docker-android": {
+  "lang": "python",
+  "stars": 15889,
+  "license": "NOASSERTION",
+  "url": "https://github.com/budtmo/docker-android.git",
+  "pushed": "2026-09-28T07:03:10Z"
+ },
+ "yusufkaraaslan/Skill_Seekers": {
+  "lang": "python",
+  "stars": 15041,
+  "license": "MIT",
+  "url": "https://github.com/yusufkaraaslan/Skill_Seekers.git",
+  "pushed": "2026-09-20T16:14:08Z"
+ },
+ "mrexodia/ida-pro-mcp": {
+  "lang": "python",
+  "stars": 12370,
+  "license": "MIT",
+  "url": "https://github.com/mrexodia/ida-pro-mcp.git",
+  "pushed": "2026-09-26T15:42:10Z"
+ },
+ "OpenByteInc/QuantDinger": {
+  "lang": "python",
+  "stars": 12266,
+  "license": "Apache-2.0",
+  "url": "https://github.com/OpenByteInc/QuantDinger.git",
+  "pushed": "2026-09-26T18:07:11Z"
+ },
+ "0x4m4/hexstrike-ai": {
+  "lang": "python",
+  "stars": 12196,
+  "license": "MIT",
+  "url": "https://github.com/0x4m4/hexstrike-ai.git",
+  "pushed": "2026-08-03T14:33:09Z"
+ },
+ "tadata-org/fastapi_mcp": {
+  "lang": "python",
+  "stars": 12011,
+  "license": "MIT",
+  "url": "https://github.com/tadata-org/fastapi_mcp.git",
+  "pushed": "2025-11-24T14:51:54Z"
+ },
+ "awslabs/mcp": {
+  "lang": "python",
+  "stars": 9737,
+  "license": "Apache-2.0",
+  "url": "https://github.com/awslabs/mcp.git",
+  "pushed": "2026-09-25T20:56:08Z"
+ },
+ "Agents365-ai/drawio-skill": {
+  "lang": "python",
+  "stars": 9730,
+  "license": "MIT",
+  "url": "https://github.com/Agents365-ai/drawio-skill.git",
+  "pushed": "2026-09-14T08:26:11Z"
+ },
+ "firerpa/lamda": {
+  "lang": "python",
+  "stars": 8492,
+  "license": "MIT",
+  "url": "https://github.com/firerpa/lamda.git",
+  "pushed": "2026-09-27T10:05:24Z"
+ },
+ "Zipstack/unstract": {
+  "lang": "python",
+  "stars": 7259,
+  "license": "AGPL-3.0",
+  "url": "https://github.com/Zipstack/unstract.git",
+  "pushed": "2026-09-28T10:26:37Z"
+ },
+ "MinishLab/semble": {
+  "lang": "python",
+  "stars": 6150,
+  "license": "MIT",
+  "url": "https://github.com/MinishLab/semble.git",
+  "pushed": "2026-09-25T07:16:03Z"
+ },
+ "Klavis-AI/klavis": {
+  "lang": "python",
+  "stars": 5812,
+  "license": "Apache-2.0",
+  "url": "https://github.com/Klavis-AI/klavis.git",
+  "pushed": "2026-06-01T21:21:04Z"
+ },
+ "JerBouma/FinanceToolkit": {
+  "lang": "python",
+  "stars": 5388,
+  "license": "MIT",
+  "url": "https://github.com/JerBouma/FinanceToolkit.git",
+  "pushed": "2026-09-10T16:10:58Z"
+ },
+ "vitali87/code-graph-rag": {
+  "lang": "python",
+  "stars": 5184,
+  "license": "MIT",
+  "url": "https://github.com/vitali87/code-graph-rag.git",
+  "pushed": "2026-09-28T13:05:20Z"
+ },
+ "atilaahmettaner/tradingview-mcp": {
+  "lang": "python",
+  "stars": 4674,
+  "license": "MIT",
+  "url": "https://github.com/atilaahmettaner/tradingview-mcp.git",
+  "pushed": "2026-09-01T15:15:48Z"
+ },
+ "open-webui/mcpo": {
+  "lang": "python",
+  "stars": 4385,
+  "license": "MIT",
+  "url": "https://github.com/open-webui/mcpo.git",
+  "pushed": "2026-05-17T20:40:30Z"
+ },
+ "haris-musa/excel-mcp-server": {
+  "lang": "python",
+  "stars": 4205,
+  "license": "MIT",
+  "url": "https://github.com/haris-musa/excel-mcp-server.git",
+  "pushed": "2026-09-28T13:04:24Z"
+ },
+ "evalstate/fast-agent": {
+  "lang": "python",
+  "stars": 3921,
+  "license": "Apache-2.0",
+  "url": "https://github.com/evalstate/fast-agent.git",
+  "pushed": "2026-09-27T08:26:27Z"
+ },
+ "stickerdaniel/linkedin-mcp-server": {
+  "lang": "python",
+  "stars": 3647,
+  "license": "Apache-2.0",
+  "url": "https://github.com/stickerdaniel/linkedin-mcp-server.git",
+  "pushed": "2026-09-28T12:56:48Z"
+ },
+ "davepoon/buildwithclaude": {
+  "lang": "python",
+  "stars": 3562,
+  "license": "MIT",
+  "url": "https://github.com/davepoon/buildwithclaude.git",
+  "pushed": "2026-09-28T01:43:33Z"
+ },
+ "n8n-io/n8n": {
+  "lang": "typescript",
+  "stars": 206184,
+  "license": "NOASSERTION",
+  "url": "https://github.com/n8n-io/n8n.git",
+  "pushed": "2026-09-28T13:08:08Z"
+ },
+ "google-gemini/gemini-cli": {
+  "lang": "typescript",
+  "stars": 107170,
+  "license": "Apache-2.0",
+  "url": "https://github.com/google-gemini/gemini-cli.git",
+  "pushed": "2026-09-28T01:42:37Z"
+ },
+ "koala73/worldmonitor": {
+  "lang": "typescript",
+  "stars": 87498,
+  "license": "AGPL-3.0",
+  "url": "https://github.com/koala73/worldmonitor.git",
+  "pushed": "2026-09-28T13:07:04Z"
+ },
+ "ruvnet/ruflo": {
+  "lang": "typescript",
+  "stars": 73421,
+  "license": "MIT",
+  "url": "https://github.com/ruvnet/ruflo.git",
+  "pushed": "2026-09-28T06:25:09Z"
+ },
+ "upstash/context7": {
+  "lang": "typescript",
+  "stars": 62490,
+  "license": "MIT",
+  "url": "https://github.com/upstash/context7.git",
+  "pushed": "2026-09-28T10:11:38Z"
+ },
+ "ChromeDevTools/chrome-devtools-mcp": {
+  "lang": "typescript",
+  "stars": 52693,
+  "license": "Apache-2.0",
+  "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp.git",
+  "pushed": "2026-09-28T12:45:33Z"
+ },
+ "reactive-resume/reactive-resume": {
+  "lang": "typescript",
+  "stars": 43505,
+  "license": "MIT",
+  "url": "https://github.com/reactive-resume/reactive-resume.git",
+  "pushed": "2026-09-28T07:01:02Z"
+ },
+ "bytedance/UI-TARS-desktop": {
+  "lang": "typescript",
+  "stars": 39142,
+  "license": "Apache-2.0",
+  "url": "https://github.com/bytedance/UI-TARS-desktop.git",
+  "pushed": "2026-09-24T06:48:56Z"
+ },
+ "activepieces/activepieces": {
+  "lang": "typescript",
+  "stars": 24764,
+  "license": "NOASSERTION",
+  "url": "https://github.com/activepieces/activepieces.git",
+  "pushed": "2026-09-28T12:32:24Z"
+ },
+ "pascalorg/editor": {
+  "lang": "typescript",
+  "stars": 24349,
+  "license": "MIT",
+  "url": "https://github.com/pascalorg/editor.git",
+  "pushed": "2026-09-28T12:40:08Z"
+ },
+ "mksglu/context-mode": {
+  "lang": "typescript",
+  "stars": 24163,
+  "license": "NOASSERTION",
+  "url": "https://github.com/mksglu/context-mode.git",
+  "pushed": "2026-09-28T12:07:55Z"
+ },
+ "czlonkowski/n8n-mcp": {
+  "lang": "typescript",
+  "stars": 23013,
+  "license": "MIT",
+  "url": "https://github.com/czlonkowski/n8n-mcp.git",
+  "pushed": "2026-09-28T10:08:52Z"
+ },
+ "nukeop/nuclear": {
+  "lang": "typescript",
+  "stars": 18540,
+  "license": "AGPL-3.0",
+  "url": "https://github.com/nukeop/nuclear.git",
+  "pushed": "2026-09-28T12:42:02Z"
+ },
+ "triggerdotdev/trigger.dev": {
+  "lang": "typescript",
+  "stars": 16429,
+  "license": "Apache-2.0",
+  "url": "https://github.com/triggerdotdev/trigger.dev.git",
+  "pushed": "2026-09-28T13:01:06Z"
+ },
+ "open-metadata/OpenMetadata": {
+  "lang": "typescript",
+  "stars": 15348,
+  "license": "Apache-2.0",
+  "url": "https://github.com/open-metadata/OpenMetadata.git",
+  "pushed": "2026-09-28T13:07:48Z"
+ },
+ "modelcontextprotocol/typescript-sdk": {
+  "lang": "typescript",
+  "stars": 13479,
+  "license": "NOASSERTION",
+  "url": "https://github.com/modelcontextprotocol/typescript-sdk.git",
+  "pushed": "2026-09-28T12:26:52Z"
+ },
+ "mcp-use/mcp-use": {
+  "lang": "typescript",
+  "stars": 10684,
+  "license": "MIT",
+  "url": "https://github.com/mcp-use/mcp-use.git",
+  "pushed": "2026-09-25T17:02:33Z"
+ },
+ "trailhq/Graft": {
+  "lang": "typescript",
+  "stars": 9337,
+  "license": "MIT",
+  "url": "https://github.com/trailhq/Graft.git",
+  "pushed": "2026-09-28T12:59:42Z"
+ },
+ "openstatusHQ/openstatus": {
+  "lang": "typescript",
+  "stars": 9150,
+  "license": "AGPL-3.0",
+  "url": "https://github.com/openstatusHQ/openstatus.git",
+  "pushed": "2026-09-28T11:18:24Z"
+ },
+ "apify/apify-mcp-server": {
+  "lang": "typescript",
+  "stars": 8808,
+  "license": "MIT",
+  "url": "https://github.com/apify/apify-mcp-server.git",
+  "pushed": "2026-09-27T21:20:51Z"
+ },
+ "devlikeapro/waha": {
+  "lang": "typescript",
+  "stars": 7499,
+  "license": "Apache-2.0",
+  "url": "https://github.com/devlikeapro/waha.git",
+  "pushed": "2026-09-22T04:21:22Z"
+ },
+ "AgentDeskAI/browser-tools-mcp": {
+  "lang": "typescript",
+  "stars": 7328,
+  "license": "MIT",
+  "url": "https://github.com/AgentDeskAI/browser-tools-mcp.git",
+  "pushed": "2026-08-12T16:48:04Z"
+ },
+ "BrowserMCP/mcp": {
+  "lang": "typescript",
+  "stars": 7140,
+  "license": "Apache-2.0",
+  "url": "https://github.com/BrowserMCP/mcp.git",
+  "pushed": "2025-04-24T21:49:44Z"
+ },
+ "getsentry/MobileBuildMCP": {
+  "lang": "typescript",
+  "stars": 6437,
+  "license": "MIT",
+  "url": "https://github.com/getsentry/MobileBuildMCP.git",
+  "pushed": "2026-09-23T20:18:03Z"
+ },
+ "KnockOutEZ/wigolo": {
+  "lang": "typescript",
+  "stars": 5419,
+  "license": "NOASSERTION",
+  "url": "https://github.com/KnockOutEZ/wigolo.git",
+  "pushed": "2026-09-28T11:39:51Z"
+ },
+ "TabularisDB/tabularis": {
+  "lang": "typescript",
+  "stars": 5078,
+  "license": "Apache-2.0",
+  "url": "https://github.com/TabularisDB/tabularis.git",
+  "pushed": "2026-09-28T10:27:28Z"
+ },
+ "exa-labs/exa-mcp-server": {
+  "lang": "typescript",
+  "stars": 5056,
+  "license": "MIT",
+  "url": "https://github.com/exa-labs/exa-mcp-server.git",
+  "pushed": "2026-09-23T00:29:21Z"
+ },
+ "antvis/mcp-server-chart": {
+  "lang": "typescript",
+  "stars": 4386,
+  "license": "MIT",
+  "url": "https://github.com/antvis/mcp-server-chart.git",
+  "pushed": "2026-08-27T01:50:14Z"
+ },
+ "archestra-ai/archestra": {
+  "lang": "typescript",
+  "stars": 4310,
+  "license": "NOASSERTION",
+  "url": "https://github.com/archestra-ai/archestra.git",
+  "pushed": "2026-09-28T13:01:56Z"
+ },
+ "microsoft/flint-chart": {
+  "lang": "typescript",
+  "stars": 4306,
+  "license": "MIT",
+  "url": "https://github.com/microsoft/flint-chart.git",
+  "pushed": "2026-09-23T15:57:32Z"
+ },
+ "JoeanAmier/XHS-Downloader": {
+  "lang": "javascript",
+  "stars": 12856,
+  "license": "GPL-3.0",
+  "url": "https://github.com/JoeanAmier/XHS-Downloader.git",
+  "pushed": "2026-09-20T03:16:28Z"
+ },
+ "xinnan-tech/xiaozhi-esp32-server": {
+  "lang": "javascript",
+  "stars": 10696,
+  "license": "MIT",
+  "url": "https://github.com/xinnan-tech/xiaozhi-esp32-server.git",
+  "pushed": "2026-09-28T02:25:33Z"
+ },
+ "firecrawl/firecrawl-mcp-server": {
+  "lang": "javascript",
+  "stars": 7529,
+  "license": "MIT",
+  "url": "https://github.com/firecrawl/firecrawl-mcp-server.git",
+  "pushed": "2026-09-28T12:18:07Z"
+ },
+ "u14app/deep-research": {
+  "lang": "javascript",
+  "stars": 4691,
+  "license": "MIT",
+  "url": "https://github.com/u14app/deep-research.git",
+  "pushed": "2026-06-18T14:43:29Z"
+ },
+ "neomjs/neo": {
+  "lang": "javascript",
+  "stars": 3280,
+  "license": "MIT",
+  "url": "https://github.com/neomjs/neo.git",
+  "pushed": "2026-09-28T09:35:26Z"
+ },
+ "brightdata/brightdata-mcp": {
+  "lang": "javascript",
+  "stars": 2660,
+  "license": "MIT",
+  "url": "https://github.com/brightdata/brightdata-mcp.git",
+  "pushed": "2026-09-17T14:51:38Z"
+ },
+ "cjo4m06/mcp-shrimp-task-manager": {
+  "lang": "javascript",
+  "stars": 2147,
+  "license": "MIT",
+  "url": "https://github.com/cjo4m06/mcp-shrimp-task-manager.git",
+  "pushed": "2025-08-21T08:55:59Z"
+ },
+ "Joooook/12306-mcp": {
+  "lang": "javascript",
+  "stars": 1621,
+  "license": "MIT",
+  "url": "https://github.com/Joooook/12306-mcp.git",
+  "pushed": "2026-07-31T06:22:59Z"
+ },
+ "caol64/wenyan-mcp": {
+  "lang": "javascript",
+  "stars": 1327,
+  "license": "Apache-2.0",
+  "url": "https://github.com/caol64/wenyan-mcp.git",
+  "pushed": "2026-09-20T00:39:34Z"
+ },
+ "cinderline/northcinder": {
+  "lang": "javascript",
+  "stars": 1214,
+  "license": "MIT",
+  "url": "https://github.com/cinderline/northcinder.git",
+  "pushed": "2026-08-22T12:11:30Z"
+ },
+ "sheshbabu/zen": {
+  "lang": "javascript",
+  "stars": 1178,
+  "license": "AGPL-3.0",
+  "url": "https://github.com/sheshbabu/zen.git",
+  "pushed": "2026-09-25T23:01:21Z"
+ },
+ "atlassian/atlassian-mcp-server": {
+  "lang": "javascript",
+  "stars": 1072,
+  "license": "Apache-2.0",
+  "url": "https://github.com/atlassian/atlassian-mcp-server.git",
+  "pushed": "2026-09-15T19:26:27Z"
+ },
+ "JetBrains/mcp-jetbrains": {
+  "lang": "javascript",
+  "stars": 963,
+  "license": "Apache-2.0",
+  "url": "https://github.com/JetBrains/mcp-jetbrains.git",
+  "pushed": "2026-01-07T16:21:45Z"
+ },
+ "WJZ-P/gemini-skill": {
+  "lang": "javascript",
+  "stars": 833,
+  "license": "MIT",
+  "url": "https://github.com/WJZ-P/gemini-skill.git",
+  "pushed": "2026-09-18T13:41:01Z"
+ },
+ "GoogleCloudPlatform/cloud-run-mcp": {
+  "lang": "javascript",
+  "stars": 631,
+  "license": "Apache-2.0",
+  "url": "https://github.com/GoogleCloudPlatform/cloud-run-mcp.git",
+  "pushed": "2026-09-28T13:04:14Z"
+ },
+ "antibrow/dsh-antibrow": {
+  "lang": "javascript",
+  "stars": 577,
+  "license": "MIT",
+  "url": "https://github.com/antibrow/dsh-antibrow.git",
+  "pushed": "2026-09-12T07:39:10Z"
+ },
+ "sv-number/mcp-server": {
+  "lang": "javascript",
+  "stars": 551,
+  "license": "MIT",
+  "url": "https://github.com/sv-number/mcp-server.git",
+  "pushed": "2026-08-10T18:55:24Z"
+ },
+ "makafeli/n8n-workflow-builder": {
+  "lang": "javascript",
+  "stars": 544,
+  "license": "MIT",
+  "url": "https://github.com/makafeli/n8n-workflow-builder.git",
+  "pushed": "2026-03-19T11:11:52Z"
+ },
+ "ooples/token-optimizer-mcp": {
+  "lang": "javascript",
+  "stars": 537,
+  "license": "MIT",
+  "url": "https://github.com/ooples/token-optimizer-mcp.git",
+  "pushed": "2026-09-25T14:02:34Z"
+ },
+ "bvisible/mcp-ssh-manager": {
+  "lang": "javascript",
+  "stars": 493,
+  "license": "MIT",
+  "url": "https://github.com/bvisible/mcp-ssh-manager.git",
+  "pushed": "2026-09-24T15:39:41Z"
+ },
+ "AnkleBreaker-Studio/unity-mcp-server": {
+  "lang": "javascript",
+  "stars": 484,
+  "license": "NOASSERTION",
+  "url": "https://github.com/AnkleBreaker-Studio/unity-mcp-server.git",
+  "pushed": "2026-07-27T12:22:07Z"
+ },
+ "AeternaLabsHQ/pullmd": {
+  "lang": "javascript",
+  "stars": 483,
+  "license": "AGPL-3.0",
+  "url": "https://github.com/AeternaLabsHQ/pullmd.git",
+  "pushed": "2026-09-21T11:25:23Z"
+ },
+ "tugcantopaloglu/godot-mcp": {
+  "lang": "javascript",
+  "stars": 466,
+  "license": "MIT",
+  "url": "https://github.com/tugcantopaloglu/godot-mcp.git",
+  "pushed": "2026-07-13T08:04:01Z"
+ },
+ "ryaker/outlook-mcp": {
+  "lang": "javascript",
+  "stars": 442,
+  "license": null,
+  "url": "https://github.com/ryaker/outlook-mcp.git",
+  "pushed": "2026-03-30T19:25:20Z"
+ },
+ "peterfei/ai-agent-team": {
+  "lang": "javascript",
+  "stars": 438,
+  "license": "MIT",
+  "url": "https://github.com/peterfei/ai-agent-team.git",
+  "pushed": "2026-06-29T22:49:44Z"
+ },
+ "mcpware/cross-code-organizer": {
+  "lang": "javascript",
+  "stars": 381,
+  "license": "MIT",
+  "url": "https://github.com/mcpware/cross-code-organizer.git",
+  "pushed": "2026-09-13T04:30:01Z"
+ },
+ "Goldentrii/AgentRecall-X": {
+  "lang": "javascript",
+  "stars": 371,
+  "license": "MIT",
+  "url": "https://github.com/Goldentrii/AgentRecall-X.git",
+  "pushed": "2026-09-27T21:57:19Z"
+ },
+ "chandler-stimson/live-stream-downloader": {
+  "lang": "javascript",
+  "stars": 367,
+  "license": "MPL-2.0",
+  "url": "https://github.com/chandler-stimson/live-stream-downloader.git",
+  "pushed": "2026-09-06T05:03:29Z"
+ },
+ "jerhadf/linear-mcp-server": {
+  "lang": "javascript",
+  "stars": 347,
+  "license": "MIT",
+  "url": "https://github.com/jerhadf/linear-mcp-server.git",
+  "pushed": "2025-05-01T19:45:31Z"
+ },
+ "nickgnd/tmux-mcp": {
+  "lang": "javascript",
+  "stars": 303,
+  "license": "MIT",
+  "url": "https://github.com/nickgnd/tmux-mcp.git",
+  "pushed": "2026-02-14T07:24:57Z"
+ }
+}

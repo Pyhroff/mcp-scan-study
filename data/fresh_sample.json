@@ -1,0 +1,362 @@
+[
+ {
+  "repo": "opentabs-dev/opentabs",
+  "tool": "get_test_run_test_cases",
+  "title": "Unscoped arbitrary code/command execution",
+  "params": "['app_url']",
+  "desc": "Get test case results for a test run. Each test case has a head replay with status and accuracy info. A replay with is_accurate=false means the replay",
+  "src": "ticulous/src/tools/get-test-run-test-cases.ts",
+  "kept_v07": false
+ },
+ {
+  "repo": "LING71671/open-reverselab",
+  "tool": "procmon_start_capture",
+  "title": "Unscoped filesystem access",
+  "params": "['pml_path']",
+  "desc": "\u542f\u52a8 Procmon64 capture\uff0cbacking file \u9ed8\u8ba4\u5199\u5165 exports\\procmon\u3002",
+  "src": "p/ReverseLabToolsMCP/reverse_lab_tools_mcp.py",
+  "kept_v07": true
+ },
+ {
+  "repo": "opentabs-dev/opentabs",
+  "tool": "get_file_content",
+  "title": "Unscoped filesystem access",
+  "params": "['path']",
+  "desc": "Read text content of a file by its ID. Works with text-based files (.txt, .md, .csv, .html, .json, .xml, .yaml, .log, etc.). For Word documents (.docx",
+  "src": "/microsoft-word/src/tools/get-file-content.ts",
+  "kept_v07": true
+ },
+ {
+  "repo": "adoslabsproject-gif/nothumanallowed",
+  "tool": "delete_file",
+  "title": "Unscoped filesystem access",
+  "params": "['path', 'query', 'command']",
+  "desc": "Delete a file",
+  "src": "othumanallowed/src/server/routes/webcraft.mjs",
+  "kept_v07": true
+ },
+ {
+  "repo": "LING71671/open-reverselab",
+  "tool": "rizin_write_bytes",
+  "title": "Unscoped filesystem access",
+  "params": "['path', 'output_path']",
+  "desc": "\u4f7f\u7528 Rizin raw write \u5728 patches \u526f\u672c\u4e0a\u5199\u5165\u5341\u516d\u8fdb\u5236\u5b57\u8282\u3002",
+  "src": "p/ReverseLabToolsMCP/reverse_lab_tools_mcp.py",
+  "kept_v07": true
+ },
+ {
+  "repo": "opentabs-dev/opentabs",
+  "tool": "run_query",
+  "title": "Unscoped arbitrary code/command execution",
+  "params": "['query']",
+  "desc": "Execute a SQL query against a Retool resource and return the results. Use this to test resources, inspect data, or validate queries before wiring them",
+  "src": "pentabs/plugins/retool/src/tools/run-query.ts",
+  "kept_v07": true
+ },
+ {
+  "repo": "opentabs-dev/opentabs",
+  "tool": "add_mcp_server",
+  "title": "Unscoped arbitrary code/command execution",
+  "params": "['url']",
+  "desc": "Add a new MCP server to the MiniMax Agent workspace. Provide a name, URL or command, and optional environment variables or arguments.",
+  "src": "ins/minimax-agent/src/tools/add-mcp-server.ts",
+  "kept_v07": false
+ },
+ {
+  "repo": "opentabs-dev/opentabs",
+  "tool": "add_query",
+  "title": "Unscoped outbound network access",
+  "params": "['query_id', 'query_string']",
+  "desc": "Add a data query to a Retool app. The query connects to an existing resource (database, REST API, gRPC service) and can be referenced by widgets via {",
+  "src": "pentabs/plugins/retool/src/tools/add-query.ts",
+  "kept_v07": false
+ },
+ {
+  "repo": "opentabs-dev/opentabs",
+  "tool": "create_label_action",
+  "title": "Unscoped arbitrary code/command execution",
+  "params": "['screenshot_file_name']",
+  "desc": "Label a specific screenshot diff as approved or rejected. Use this to approve or reject individual visual differences within a test run.",
+  "src": "s/meticulous/src/tools/create-label-action.ts",
+  "kept_v07": false
+ },
+ {
+  "repo": "opentabs-dev/opentabs",
+  "tool": "add_source_url",
+  "title": "Unscoped outbound network access",
+  "params": "['url']",
+  "desc": "Add a website URL as a source to a notebook. NotebookLM will fetch and index the page content.",
+  "src": "lugins/notebooklm/src/tools/add-source-url.ts",
+  "kept_v07": true
+ },
+ {
+  "repo": "opentabs-dev/opentabs",
+  "tool": "diagnose",
+  "title": "Unscoped outbound network access",
+  "params": "['url', 'appServerUrl']",
+  "desc": "Diagnose the Snowflake browser adapter connection. Returns whether the internal Snowflake app state is available, the authenticated user, API server U",
+  "src": "ntabs/plugins/snowflake/src/tools/diagnose.ts",
+  "kept_v07": false
+ },
+ {
+  "repo": "mhenry3164/twenty-crm-mcp-server",
+  "tool": "delete_person",
+  "title": "Unscoped filesystem access",
+  "params": "['linkedinUrl', 'xUrl']",
+  "desc": "Delete a person from Twenty CRM",
+  "src": "mhenry3164__twenty-crm-mcp-server/index.js",
+  "kept_v07": false
+ },
+ {
+  "repo": "neo4j-contrib/mcp-neo4j",
+  "tool": "write_neo4j_cypher",
+  "title": "Unscoped arbitrary code/command execution",
+  "params": "['query']",
+  "desc": "Execute a write Cypher query on the neo4j database.",
+  "src": "p-neo4j-cypher/src/mcp_neo4j_cypher/server.py",
+  "kept_v07": true
+ },
+ {
+  "repo": "adoslabsproject-gif/nothumanallowed",
+  "tool": "edit_file",
+  "title": "Unscoped filesystem access",
+  "params": "['path', 'query', 'command']",
+  "desc": "Make a surgical edit to an existing file. The old_text must be an EXACT match of the current file content. Copy-paste from read_file output.",
+  "src": "othumanallowed/src/server/routes/webcraft.mjs",
+  "kept_v07": true
+ },
+ {
+  "repo": "opentabs-dev/opentabs",
+  "tool": "get_file_content",
+  "title": "Unscoped filesystem access",
+  "params": "['path']",
+  "desc": "Read text content of a file by its ID. Works with text-based files (.txt, .md, .csv, .html, .json, .xml, .yaml, .log, etc.). For Word documents (.docx",
+  "src": "/microsoft-word/src/tools/get-file-content.ts",
+  "kept_v07": true
+ },
+ {
+  "repo": "xing5/mcp-google-sheets",
+  "tool": "find_in_spreadsheet",
+  "title": "Unscoped outbound network access",
+  "params": "['query']",
+  "desc": "Find cells containing a specific value in a Google Spreadsheet.\n\nArgs:\n    spreadsheet_id: The ID of the spreadsheet (found in the URL)\n    query: The",
+  "src": "google-sheets/src/mcp_google_sheets/server.py",
+  "kept_v07": false
+ },
+ {
+  "repo": "opentabs-dev/opentabs",
+  "tool": "update_call",
+  "title": "Unscoped outbound network access",
+  "params": "['url']",
+  "desc": "Modify an in-progress call. Use this to redirect a call to a new TwiML URL or to end a call by setting its status to \"completed\" or \"canceled\".",
+  "src": "ntabs/plugins/twilio/src/tools/update-call.ts",
+  "kept_v07": false
+ },
+ {
+  "repo": "opentabs-dev/opentabs",
+  "tool": "clone_event_type",
+  "title": "Unscoped filesystem access",
+  "params": "['edit_path']",
+  "desc": "Create a copy of an existing event type with all its settings. The clone is created with \" (clone)\" appended to the name and a generated slug. Returns",
+  "src": "lugins/calendly/src/tools/clone-event-type.ts",
+  "kept_v07": false
+ },
+ {
+  "repo": "Ying-Kai-Liao/jev-browser",
+  "tool": "browser_open",
+  "title": "Unscoped outbound network access",
+  "params": "['url']",
+  "desc": "Navigate the browser session to a URL and wait until the page settles. Starts the browser on first use.",
+  "src": "Kai-Liao__jev-browser/bin/jev-browser-mcp.mjs",
+  "kept_v07": true
+ },
+ {
+  "repo": "opentabs-dev/opentabs",
+  "tool": "navigate_to_product",
+  "title": "Unscoped outbound network access",
+  "params": "['url']",
+  "desc": "Navigate the browser to a Costco product page by item number. The user can view full product details, images, and reviews.",
+  "src": "ugins/costco/src/tools/navigate-to-product.ts",
+  "kept_v07": false
+ },
+ {
+  "repo": "opentabs-dev/opentabs",
+  "tool": "get_map_url",
+  "title": "Unscoped outbound network access",
+  "params": "['query']",
+  "desc": "Build a Google Maps URL without navigating. Useful for generating links to include in messages, emails, or documents. Supports location, search, place",
+  "src": "/plugins/google-maps/src/tools/get-map-url.ts",
+  "kept_v07": false
+ },
+ {
+  "repo": "adoslabsproject-gif/nothumanallowed",
+  "tool": "check_syntax",
+  "title": "Unscoped filesystem access",
+  "params": "['path']",
+  "desc": "Check file for syntax errors",
+  "src": "othumanallowed/src/server/routes/webcraft.mjs",
+  "kept_v07": true
+ },
+ {
+  "repo": "datalayer/jupyter-mcp-server",
+  "tool": "connect_to_jupyter",
+  "title": "Unscoped outbound network access",
+  "params": "['jupyter_url']",
+  "desc": "Connect to a Jupyter server dynamically with URL and token.\n\nThis tool allows you to connect to different Jupyter servers without needing to\nrestart t",
+  "src": "pyter-mcp-server/jupyter_mcp_server/server.py",
+  "kept_v07": true
+ },
+ {
+  "repo": "opentabs-dev/opentabs",
+  "tool": "upload_file",
+  "title": "Unscoped outbound network access",
+  "params": "['filename']",
+  "desc": "Upload a file to a Slack channel",
+  "src": "entabs/plugins/slack/src/tools/upload-file.ts",
+  "kept_v07": false
+ },
+ {
+  "repo": "opentabs-dev/opentabs",
+  "tool": "update_phone_number",
+  "title": "Unscoped outbound network access",
+  "params": "['voice_url', 'sms_url']",
+  "desc": "Update configuration for an incoming phone number. Change the friendly name, voice/SMS webhook URLs, HTTP methods, or status callback.",
+  "src": "ugins/twilio/src/tools/update-phone-number.ts",
+  "kept_v07": false
+ },
+ {
+  "repo": "xixihhhh/clipforge",
+  "tool": "clipforge_ingest_product",
+  "title": "Unscoped outbound network access",
+  "params": "['url']",
+  "desc": "\u8d34\u4e00\u4e2a\u5546\u54c1\u9875\u94fe\u63a5\uff0c\u81ea\u52a8\u6293\u53d6\u6807\u9898/\u4ef7\u683c/\u5546\u54c1\u56fe\uff08\u89e3\u6790\u4f18\u5148\u7ea7 schema.org JSON-LD > OpenGraph > Twitter Card > \u6807\u9898/meta\uff09\uff0c\u53ef\u4e00\u952e\u5efa\u5e26\u8d27\u9879\u76ee\u5e76\u4e0b\u8f7d\u524d\u51e0\u5f20\u5546\u54c1\u56fe\u3002\u5e26\u8d27\u6210\u7247\u7684\u300c\u94fe\u63a5\u4f18\u5148\u300d\u5165\u53e3\u3002\u8fd4\u56de projectId\u3001\u89e3\u6790\u51fa\u7684\u5546\u54c1\u4fe1\u606f\u4e0e\u5df2\u4e0b\u8f7d\u5546\u54c1\u56fe\u5217\u8868\u3002\u4e0d",
+  "src": "xixihhhh__clipforge/mcp/clipforge-mcp.mjs",
+  "kept_v07": true
+ },
+ {
+  "repo": "adoslabsproject-gif/nothumanallowed",
+  "tool": "edit_file",
+  "title": "Unscoped filesystem access",
+  "params": "['path', 'query', 'command']",
+  "desc": "Make a surgical edit to an existing file. The old_text must be an EXACT match of the current file content. Copy-paste from read_file output.",
+  "src": "othumanallowed/src/server/routes/webcraft.mjs",
+  "kept_v07": true
+ },
+ {
+  "repo": "adoslabsproject-gif/nothumanallowed",
+  "tool": "search_files",
+  "title": "Unscoped filesystem access",
+  "params": "['command', 'path']",
+  "desc": "Search for text in project files",
+  "src": "othumanallowed/src/server/routes/webcraft.mjs",
+  "kept_v07": true
+ },
+ {
+  "repo": "opentabs-dev/opentabs",
+  "tool": "query_timeseries",
+  "title": "Unscoped arbitrary code/command execution",
+  "params": "['query']",
+  "desc": "Execute a multi-query timeseries request using the Datadog internal query engine. Supports metrics, logs, spans, and other data sources with formula s",
+  "src": "plugins/datadog/src/tools/query-timeseries.ts",
+  "kept_v07": true
+ },
+ {
+  "repo": "DMontgomery40/mcp-canvas-lms",
+  "tool": "canvas_get_file",
+  "title": "Unscoped filesystem access",
+  "params": "['page_url']",
+  "desc": "Get information about a specific file",
+  "src": "DMontgomery40__mcp-canvas-lms/src/index.ts",
+  "kept_v07": false
+ },
+ {
+  "repo": "opentabs-dev/opentabs",
+  "tool": "export_toolscript_archive",
+  "title": "Unscoped outbound network access",
+  "params": "['file_name']",
+  "desc": "Export a Retool app as a Toolscript ZIP archive using Retool's own browser-side archive serializer. Returns the ZIP as base64 so callers can save, unz",
+  "src": "retool/src/tools/export-toolscript-archive.ts",
+  "kept_v07": false
+ },
+ {
+  "repo": "opentabs-dev/opentabs",
+  "tool": "get_board_pins",
+  "title": "Unscoped outbound network access",
+  "params": "['board_url']",
+  "desc": "Get pins on a specific board. Requires the board ID and the board URL path (e.g., \"/username/board-name/\"). Supports pagination via bookmark cursor.",
+  "src": "plugins/pinterest/src/tools/get-board-pins.ts",
+  "kept_v07": false
+ },
+ {
+  "repo": "alpacahq/alpaca-mcp-server",
+  "tool": "search_alpaca_api_specs",
+  "title": "Unscoped arbitrary code/command execution",
+  "params": "['query']",
+  "desc": "Search Alpaca API reference endpoints by topic, operation, path fragment, parameter, or schema term. Use when the exact method and path are unknown. R",
+  "src": "p-server/src/alpaca_mcp_server/readme_docs.py",
+  "kept_v07": false
+ },
+ {
+  "repo": "adoslabsproject-gif/nothumanallowed",
+  "tool": "run_command",
+  "title": "Unscoped arbitrary code/command execution",
+  "params": "['command', 'path']",
+  "desc": "Run a shell command in the project directory",
+  "src": "othumanallowed/src/server/routes/webcraft.mjs",
+  "kept_v07": true
+ },
+ {
+  "repo": "LING71671/open-reverselab",
+  "tool": "http_probe",
+  "title": "Unscoped outbound network access",
+  "params": "['url']",
+  "desc": "\u5bf9\u76ee\u6807 URL \u53d1\u8d77 GET \u63a2\u6d4b\uff0c\u6536\u96c6 header/body/cookie/\u6307\u7eb9\u3002",
+  "src": "p/ReverseLabToolsMCP/reverse_lab_tools_mcp.py",
+  "kept_v07": true
+ },
+ {
+  "repo": "opentabs-dev/opentabs",
+  "tool": "get_slide_content",
+  "title": "Unscoped filesystem access",
+  "params": "['file']",
+  "desc": "Get detailed text content and speaker notes for a specific slide by number (1-indexed). Downloads the PPTX file and extracts all text and notes.",
+  "src": "ins/powerpoint/src/tools/get-slide-content.ts",
+  "kept_v07": false
+ },
+ {
+  "repo": "opentabs-dev/opentabs",
+  "tool": "get_user_thumbnail",
+  "title": "Unscoped outbound network access",
+  "params": "['thumbnail_url_medium']",
+  "desc": "Get a user thumbnail image URL by their numeric user ID. Returns both standard and medium-sized thumbnails.",
+  "src": "lugins/airbnb/src/tools/get-user-thumbnail.ts",
+  "kept_v07": true
+ },
+ {
+  "repo": "opentabs-dev/opentabs",
+  "tool": "create_or_update_file",
+  "title": "Unscoped filesystem access",
+  "params": "['path']",
+  "desc": "Create or update a file in a repository. Commits directly to the specified branch.",
+  "src": "ins/github/src/tools/create-or-update-file.ts",
+  "kept_v07": true
+ },
+ {
+  "repo": "alioshr/memory-bank-mcp",
+  "tool": "memory_bank_write",
+  "title": "Unscoped filesystem access",
+  "params": "['fileName']",
+  "desc": "Create a new memory bank file for a specific project",
+  "src": "ory-bank-mcp/src/main/protocols/mcp/routes.ts",
+  "kept_v07": true
+ },
+ {
+  "repo": "opentabs-dev/opentabs",
+  "tool": "delete_file",
+  "title": "Unscoped filesystem access",
+  "params": "['path']",
+  "desc": "Permanently delete a file or folder. This bypasses the trash \u2014 the file cannot be recovered. For a safer alternative, use trash_file to move it to tra",
+  "src": "plugins/google-drive/src/tools/delete-file.ts",
+  "kept_v07": true
+ }
+]

@@ -1,0 +1,272 @@
+{
+ "Dataojitori/nocturne_memory": {
+  "lang": "python",
+  "stars": 1371,
+  "url": "https://github.com/Dataojitori/nocturne_memory.git",
+  "sha": "1858957bf797722a9b731fb197bd9530f7ae67e4"
+ },
+ "thetahealth/mirobody": {
+  "lang": "python",
+  "stars": 1344,
+  "url": "https://github.com/thetahealth/mirobody.git",
+  "sha": "b9373764af20bd2ae3616d0854472d37ff00eaa7"
+ },
+ "study8677/repobrain": {
+  "lang": "python",
+  "stars": 1325,
+  "url": "https://github.com/study8677/repobrain.git",
+  "sha": "ed8a5d040b87848f37b004857a2f9678e50398fc"
+ },
+ "heymrun/heym": {
+  "lang": "python",
+  "stars": 1299,
+  "url": "https://github.com/heymrun/heym.git",
+  "sha": "e50f6e504fe950099df32c404f8abb71dae2f994"
+ },
+ "datalayer/jupyter-mcp-server": {
+  "lang": "python",
+  "stars": 1287,
+  "url": "https://github.com/datalayer/jupyter-mcp-server.git",
+  "sha": "416c998568f7d1a5ccb83bddf92056da6ea03603"
+ },
+ "2akouwu/reverify": {
+  "lang": "python",
+  "stars": 1251,
+  "url": "https://github.com/2akouwu/reverify.git",
+  "sha": "f32ea84ccd6bb2aff90eca711ccfdbf04e6b8923"
+ },
+ "LING71671/open-reverselab": {
+  "lang": "python",
+  "stars": 1191,
+  "url": "https://github.com/LING71671/open-reverselab.git",
+  "sha": "fd9dbd24971357ca6c5f745fb8ba8b2c7cdfb1d3"
+ },
+ "xyTom/coding-tools-mcp": {
+  "lang": "python",
+  "stars": 1158,
+  "url": "https://github.com/xyTom/coding-tools-mcp.git",
+  "sha": "bedb632e1afd2e9ec9b268a50fe0b04695c22c64"
+ },
+ "whchien/ai-trader": {
+  "lang": "python",
+  "stars": 1098,
+  "url": "https://github.com/whchien/ai-trader.git",
+  "sha": "7681fe331fb638beab1ae20d3552c802bbaa9174"
+ },
+ "LycheeMem/LycheeMem": {
+  "lang": "python",
+  "stars": 1089,
+  "url": "https://github.com/LycheeMem/LycheeMem.git",
+  "sha": "9c4ba5e5c046d06063cb5159297a73a3ec1eb112"
+ },
+ "splx-ai/agentic-radar": {
+  "lang": "python",
+  "stars": 1056,
+  "url": "https://github.com/splx-ai/agentic-radar.git",
+  "sha": "65a7e4bd01e2034c7cb52e9620eeed287688cc53"
+ },
+ "ArcadeAI/arcade-mcp": {
+  "lang": "python",
+  "stars": 1040,
+  "url": "https://github.com/ArcadeAI/arcade-mcp.git",
+  "sha": "af2501e5640027e07d88dae5ea3cfe92968a88a1"
+ },
+ "xing5/mcp-google-sheets": {
+  "lang": "python",
+  "stars": 1009,
+  "url": "https://github.com/xing5/mcp-google-sheets.git",
+  "sha": "b2f98244590f1d0982505f4faa908731278ea998"
+ },
+ "alpacahq/alpaca-mcp-server": {
+  "lang": "python",
+  "stars": 995,
+  "url": "https://github.com/alpacahq/alpaca-mcp-server.git",
+  "sha": "a82ad1ccb740609abc99e10376e42d8e9c1037a1"
+ },
+ "neo4j-contrib/mcp-neo4j": {
+  "lang": "python",
+  "stars": 985,
+  "url": "https://github.com/neo4j-contrib/mcp-neo4j.git",
+  "sha": "1c7ad0793b5f06b42b9c44f855c23eb2064c3bb7"
+ },
+ "ref-tools/ref-tools-mcp": {
+  "lang": "typescript",
+  "stars": 1176,
+  "url": "https://github.com/ref-tools/ref-tools-mcp.git",
+  "sha": "83970a35627785a0589ae2dbe5510b4a3dd04146"
+ },
+ "mongodb-js/mongodb-mcp-server": {
+  "lang": "typescript",
+  "stars": 1138,
+  "url": "https://github.com/mongodb-js/mongodb-mcp-server.git",
+  "sha": "edbb38a4ee09151497c5205147cd512b83daeb2a"
+ },
+ "zhitongblog/solomd": {
+  "lang": "typescript",
+  "stars": 1131,
+  "url": "https://github.com/zhitongblog/solomd.git",
+  "sha": "e8f014edf86f29d920b7c1ad36ad48a39120aac3"
+ },
+ "TencentCloudBase/CloudBase-AI-Toolkit": {
+  "lang": "typescript",
+  "stars": 1126,
+  "url": "https://github.com/TencentCloudBase/CloudBase-AI-Toolkit.git",
+  "sha": "980f985d7698ad68231cc21b0f9834165cd11c7f"
+ },
+ "iFurySt/RedNote-MCP": {
+  "lang": "typescript",
+  "stars": 1111,
+  "url": "https://github.com/iFurySt/RedNote-MCP.git",
+  "sha": "74bf739a3db5c5b8e86fc8323ede09038cd89f48"
+ },
+ "codewithMUHILAN/Lightswind-UI-Library": {
+  "lang": "typescript",
+  "stars": 1088,
+  "url": "https://github.com/codewithMUHILAN/Lightswind-UI-Library.git",
+  "sha": "53ef2ee0cf211a794a3bb4b2ed1e62d3f0f2544a"
+ },
+ "openops-cloud/openops": {
+  "lang": "typescript",
+  "stars": 1073,
+  "url": "https://github.com/openops-cloud/openops.git",
+  "sha": "6f85a06d305446733234067ed82a68b427d12354"
+ },
+ "chatmcp/mcp-server-chatsum": {
+  "lang": "typescript",
+  "stars": 1026,
+  "url": "https://github.com/chatmcp/mcp-server-chatsum.git",
+  "sha": "5bf9298aa095da8b4af277137f48cc468f736797"
+ },
+ "opentabs-dev/opentabs": {
+  "lang": "typescript",
+  "stars": 961,
+  "url": "https://github.com/opentabs-dev/opentabs.git",
+  "sha": "de9200b1231cae419d1a437e410114a9e2fe8eca"
+ },
+ "alioshr/memory-bank-mcp": {
+  "lang": "typescript",
+  "stars": 921,
+  "url": "https://github.com/alioshr/memory-bank-mcp.git",
+  "sha": "559e42274147bb60f263b24c496d54593fb7f807"
+ },
+ "xixihhhh/clipforge": {
+  "lang": "typescript",
+  "stars": 897,
+  "url": "https://github.com/xixihhhh/clipforge.git",
+  "sha": "472d6f79dc7b55de64360a1247c980eff7d8f536"
+ },
+ "ChiR24/Unreal_mcp": {
+  "lang": "typescript",
+  "stars": 893,
+  "url": "https://github.com/ChiR24/Unreal_mcp.git",
+  "sha": "e45c6e2e1ddc4db537d9bbc1cd31721d9c969452"
+ },
+ "cloudflare/mcp": {
+  "lang": "typescript",
+  "stars": 892,
+  "url": "https://github.com/cloudflare/mcp.git",
+  "sha": "37cc36c01e19e674519442d0fee03ebc8827e9ae"
+ },
+ "vostride/agent-qa": {
+  "lang": "typescript",
+  "stars": 889,
+  "url": "https://github.com/vostride/agent-qa.git",
+  "sha": "22636e183bb4ee4528bf90db676837369a498e8f"
+ },
+ "jina-ai/MCP": {
+  "lang": "typescript",
+  "stars": 869,
+  "url": "https://github.com/jina-ai/MCP.git",
+  "sha": "5d6eb191a75d8e67b6e01ce427f0cc5c05c800aa"
+ },
+ "cap-js/mcp-server": {
+  "lang": "javascript",
+  "stars": 113,
+  "url": "https://github.com/cap-js/mcp-server.git",
+  "sha": "129236ccdfe252fffa276ec0bad9ff7db91b2c89"
+ },
+ "ELDment/Meting-Agent": {
+  "lang": "javascript",
+  "stars": 111,
+  "url": "https://github.com/ELDment/Meting-Agent.git",
+  "sha": "f91472c6636c555f06fa08cc1abebf34dc4b1db6"
+ },
+ "tanaikech/ToolsForMCPServer": {
+  "lang": "javascript",
+  "stars": 106,
+  "url": "https://github.com/tanaikech/ToolsForMCPServer.git",
+  "sha": "ddeb3da05eeae33ff4c2e08c5b6832086eb9666f"
+ },
+ "mhenry3164/twenty-crm-mcp-server": {
+  "lang": "javascript",
+  "stars": 105,
+  "url": "https://github.com/mhenry3164/twenty-crm-mcp-server.git",
+  "sha": "47a2e77f1c57f1c15748a640c6fddffd02dbbce2"
+ },
+ "DMontgomery40/mcp-canvas-lms": {
+  "lang": "javascript",
+  "stars": 103,
+  "url": "https://github.com/DMontgomery40/mcp-canvas-lms.git",
+  "sha": "c0646ba10ac207d45cc2122d80b3b98e12b497d0"
+ },
+ "adoslabsproject-gif/nothumanallowed": {
+  "lang": "javascript",
+  "stars": 103,
+  "url": "https://github.com/adoslabsproject-gif/nothumanallowed.git",
+  "sha": "75fd4d0db7ddd313f1bbb413f17d71e80e6bf451"
+ },
+ "techspawn/woocommerce-mcp-server": {
+  "lang": "javascript",
+  "stars": 103,
+  "url": "https://github.com/techspawn/woocommerce-mcp-server.git",
+  "sha": "b39a555c2ec2e5137fc74ccf434b97b45b00aacd"
+ },
+ "dkmaker/mcp-rest-api": {
+  "lang": "javascript",
+  "stars": 101,
+  "url": "https://github.com/dkmaker/mcp-rest-api.git",
+  "sha": "765ecdfd9d125816686eff2651d3f2631b8c9be1"
+ },
+ "shixinnt/codex-image-context-runtime": {
+  "lang": "javascript",
+  "stars": 100,
+  "url": "https://github.com/shixinnt/codex-image-context-runtime.git",
+  "sha": "b067f0e88ff39e175cc30b6fbfec95c545c92c32"
+ },
+ "aws-samples/sample-genai-on-eks-starter-kit": {
+  "lang": "javascript",
+  "stars": 95,
+  "url": "https://github.com/aws-samples/sample-genai-on-eks-starter-kit.git",
+  "sha": "9e8a3aa0e1182e76ccfc7e0830294274b32ffe8e"
+ },
+ "atagon-GmbH/kogiqa-mcp": {
+  "lang": "javascript",
+  "stars": 95,
+  "url": "https://github.com/atagon-GmbH/kogiqa-mcp.git",
+  "sha": "152c139a961710540c667e453d8c22cf30de30e7"
+ },
+ "kunwar-shah/claudex": {
+  "lang": "javascript",
+  "stars": 95,
+  "url": "https://github.com/kunwar-shah/claudex.git",
+  "sha": "8458466693b073b5717818b4c551345ca1311aaa"
+ },
+ "kopfrechner/gitlab-mr-mcp": {
+  "lang": "javascript",
+  "stars": 94,
+  "url": "https://github.com/kopfrechner/gitlab-mr-mcp.git",
+  "sha": "e31a11a6ffda5a378ca97ad9c848231f4ca3fad5"
+ },
+ "ndesv21/socialclaw": {
+  "lang": "javascript",
+  "stars": 92,
+  "url": "https://github.com/ndesv21/socialclaw.git",
+  "sha": "2071b1046251633205e894e974202ca54a79278a"
+ },
+ "Ying-Kai-Liao/jev-browser": {
+  "lang": "javascript",
+  "stars": 91,
+  "url": "https://github.com/Ying-Kai-Liao/jev-browser.git",
+  "sha": "e35ab134f65033d29c528132d92bf06e8d6adcb5"
+ }
+}
