@@ -1,0 +1,39 @@
+{
+ "tools_extracted": 4898,
+ "tools_from_nonproduction_paths": 199,
+ "pct_nonproduction": 4.1,
+ "permission_scope_high_sample40": {
+  "n": 40,
+  "counts": {
+   "weak": 12,
+   "accurate": 15,
+   "false_positive": 13
+  },
+  "strict_precision_pct": 37.5,
+  "strict_ci95": [
+   24.2,
+   53.0
+  ],
+  "lenient_precision_pct": 67.5,
+  "lenient_ci95": [
+   52.0,
+   79.9
+  ]
+ },
+ "poisoning_class_all20": {
+  "n": 20,
+  "counts": {
+   "false_positive": 20
+  },
+  "strict_precision_pct": 0.0,
+  "strict_ci95": [
+   -0.0,
+   16.1
+  ],
+  "lenient_precision_pct": 0.0,
+  "lenient_ci95": [
+   -0.0,
+   16.1
+  ]
+ }
+}

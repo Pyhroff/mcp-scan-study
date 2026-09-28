@@ -1,0 +1,28 @@
+{
+ "before": {
+  "false_positive": 14,
+  "accurate": 16,
+  "weak": 10
+ },
+ "after": {
+  "accurate": 16,
+  "false_positive": 3,
+  "weak": 3
+ },
+ "n_after": 22,
+ "strict_before_pct": 40.0,
+ "strict_before_ci": [
+  26.3,
+  55.4
+ ],
+ "strict_after_pct": 72.7,
+ "strict_after_ci": [
+  51.8,
+  86.8
+ ],
+ "fp_removed_pct": 78.6,
+ "accurate_retained_pct": 100.0,
+ "lenient_after_pct": 86.4,
+ "repos_in_sample": 12,
+ "opentabs_share": 22
+}

@@ -1,0 +1,80 @@
+{
+ "summary": {
+  "context_files": 170,
+  "samples": {
+   "clean_memory.md": {
+    "v10": 0,
+    "v11": 0
+   },
+   "poisoned_memory.md": {
+    "v10": 5,
+    "v11": 5
+   },
+   "subtle_memory.md": {
+    "v10": 0,
+    "v11": 0
+   }
+  },
+  "samples_identical": true,
+  "ctx_findings_v10": 61,
+  "ctx_findings_v11": 5,
+  "ctx_by_title_v10": {
+   "Abnormally long line in memory content": 53,
+   "Zero-width/invisible Unicode characters in memory content": 5,
+   "Standing instruction embedded in memory (coercive standing instruction)": 2,
+   "Suspicious base64-shaped blob in memory content": 1
+  },
+  "ctx_by_title_v11": {
+   "Abnormally long line in memory content": 2,
+   "Standing instruction embedded in memory (coercive standing instruction)": 2,
+   "Zero-width/invisible Unicode characters in memory content": 1
+  }
+ },
+ "remaining_v11": [
+  [
+   "assafelovic__gpt-researcher/.cursorrules",
+   [
+    "hidden_payload",
+    "medium",
+    "Abnormally long line in memory content",
+    1
+   ]
+  ],
+  [
+   "ruvnet__ruflo/CLAUDE.md",
+   [
+    "hidden_payload",
+    "medium",
+    "Abnormally long line in memory content",
+    1002
+   ]
+  ],
+  [
+   "ruvnet__ruflo/AGENTS.md",
+   [
+    "instruction_injection",
+    "critical",
+    "Standing instruction embedded in memory (coercive standing instruction)",
+    179
+   ]
+  ],
+  [
+   "triggerdotdev__trigger.dev/.cursor/rules/writing-tasks.mdc",
+   [
+    "instruction_injection",
+    "critical",
+    "Standing instruction embedded in memory (coercive standing instruction)",
+    51
+   ]
+  ],
+  [
+   "triggerdotdev__trigger.dev/.cursor/rules/writing-tasks.mdc",
+   [
+    "hidden_payload",
+    "high",
+    "Zero-width/invisible Unicode characters in memory content",
+    355
+   ]
+  ]
+ ]
+}

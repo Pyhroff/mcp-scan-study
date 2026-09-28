@@ -1,0 +1,402 @@
+[
+ {
+  "repo": "ruvnet/ruflo",
+  "tool": "aqe/security-scan",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped arbitrary code/command execution",
+  "detail": "Tool 'aqe/security-scan' looks like it performs arbitrary code/command execution but its parameter(s) ['targetPath'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "ruvnet__ruflo/v3/plugins/agentic-qe/src/plugin.ts",
+  "description": "Run SAST/DAST security scans with compliance checking"
+ },
+ {
+  "repo": "mksglu/context-mode",
+  "tool": "ctx_execute",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped arbitrary code/command execution",
+  "detail": "Tool 'ctx_execute' looks like it performs arbitrary code/command execution but its parameter(s) ['path'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "mksglu__context-mode/src/server.ts",
+  "description": "Run code in a sandboxed subprocess.${bunNote} Languages: ${langList}.\n\nThink-in-Code \u2014 the core philosophy: the bytes your code processes never enter your conversation memory; only what you console.log() does. Reading a 700 KB log directly means 700 KB of your remaining reasoning capacity gets spent on raw bytes. Running code over that same log in this sandbox and printing a 3 KB summary leaves yo"
+ },
+ {
+  "repo": "AnkleBreaker-Studio/unity-mcp-server",
+  "tool": "unity_spriteatlas_info",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'unity_spriteatlas_info' looks like it performs filesystem access but its parameter(s) ['path', 'assetPath'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "AnkleBreaker-Studio__unity-mcp-server/src/tools/editor-tools.js",
+  "description": "Get SpriteAtlas details: packables, texture settings, packing settings."
+ },
+ {
+  "repo": "AnkleBreaker-Studio/unity-mcp-server",
+  "tool": "unity_prefab_remove_component",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'unity_prefab_remove_component' looks like it performs filesystem access but its parameter(s) ['assetPath', 'prefabPath', 'referenceAssetPath', 'referencePrefabPath'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "AnkleBreaker-Studio__unity-mcp-server/src/tools/editor-tools.js",
+  "description": "Remove a component from a GameObject inside a prefab asset \u00e2\u20ac\u201d no scene instance needed."
+ },
+ {
+  "repo": "tugcantopaloglu/godot-mcp",
+  "tool": "game_gi",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'game_gi' looks like it performs filesystem access but its parameter(s) ['parentPath', 'nodePath'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "tugcantopaloglu__godot-mcp/src/index.ts",
+  "description": "Create/configure VoxelGI or LightmapGI"
+ },
+ {
+  "repo": "ooples/token-optimizer-mcp",
+  "tool": "read_file",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'read_file' looks like it performs filesystem access but its parameter(s) ['path'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "ooples__token-optimizer-mcp/ucr/codex-app-server.mjs",
+  "description": "Read one UTF-8 file from the isolated evaluation workspace using a relative path."
+ },
+ {
+  "repo": "AnkleBreaker-Studio/unity-mcp-server",
+  "tool": "unity_gameobject_reparent",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'unity_gameobject_reparent' looks like it performs filesystem access but its parameter(s) ['assetPath', 'prefabPath'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "AnkleBreaker-Studio__unity-mcp-server/src/tools/editor-tools.js",
+  "description": "Move a GameObject under a new parent in the hierarchy."
+ },
+ {
+  "repo": "ooples/token-optimizer-mcp",
+  "tool": "smart_rest",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped outbound network access",
+  "detail": "Tool 'smart_rest' looks like it performs outbound network access but its parameter(s) ['baseUrl'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "ooples__token-optimizer-mcp/src/tools/api-database/smart-rest.ts",
+  "description": "REST API analyzer with endpoint discovery and health scoring (83% token reduction)"
+ },
+ {
+  "repo": "ruvnet/ruflo",
+  "tool": "hooks_post-edit",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'hooks_post-edit' looks like it performs filesystem access but its parameter(s) ['file'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "ruvnet__ruflo/v3/@claude-flow/cli/src/mcp-tools/hooks-tools.ts",
+  "description": "Record editing outcome for learning Use when native Bash hooks (via Claude Code\\'s settings.json) are wrong because you need Ruflo-side state \u2014 pattern persistence, neural training signals, model-routing learning, cost tracking, audit chain. For one-off shell commands, plain Bash hooks are fine."
+ },
+ {
+  "repo": "0x4m4/hexstrike-ai",
+  "tool": "volatility_analyze",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped arbitrary code/command execution",
+  "detail": "Tool 'volatility_analyze' looks like it performs arbitrary code/command execution but its parameter(s) ['memory_file', 'profile'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "0x4m4__hexstrike-ai/hexstrike_mcp.py",
+  "description": "Execute Volatility for memory forensics analysis with enhanced logging.\n\nArgs:\n    memory_file: Path to memory dump file\n    plugin: Volatility plugin to use\n    profile: Memory profile to use\n    additional_args: Additional Volatility arguments\n\nReturns:\n    Memory forensics analysis results"
+ },
+ {
+  "repo": "tugcantopaloglu/godot-mcp",
+  "tool": "game_list_signals",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'game_list_signals' looks like it performs filesystem access but its parameter(s) ['nodePath'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "tugcantopaloglu__godot-mcp/src/index.ts",
+  "description": "List all signals on a node with connections"
+ },
+ {
+  "repo": "sansan0/TrendRadar",
+  "tool": "read_article",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped outbound network access",
+  "detail": "Tool 'read_article' looks like it performs outbound network access but its parameter(s) ['url'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "sansan0__TrendRadar/mcp_server/server.py",
+  "description": "\u8bfb\u53d6\u6307\u5b9a URL \u7684\u6587\u7ae0\u5185\u5bb9\uff0c\u8fd4\u56de LLM \u53cb\u597d\u7684 Markdown \u683c\u5f0f\n\n\u901a\u8fc7 Jina AI Reader \u5c06\u7f51\u9875\u8f6c\u6362\u4e3a\u5e72\u51c0\u7684 Markdown\uff0c\u81ea\u52a8\u53bb\u9664\u5e7f\u544a\u3001\u5bfc\u822a\u680f\u7b49\u566a\u97f3\u5185\u5bb9\u3002\n\u9002\u5408\u7528\u4e8e\uff1a\u9605\u8bfb\u65b0\u95fb\u6b63\u6587\u3001\u83b7\u53d6\u6587\u7ae0\u8be6\u60c5\u3001\u5206\u6790\u6587\u7ae0\u5185\u5bb9\u3002\n\n**\u5178\u578b\u4f7f\u7528\u6d41\u7a0b\uff1a**\n1. \u5148\u7528 search_news(include_url=True) \u641c\u7d22\u65b0\u95fb\u83b7\u53d6\u94fe\u63a5\n2. \u518d\u7528 read_article(url=\u94fe\u63a5) \u8bfb\u53d6\u6b63\u6587\u5185\u5bb9\n3. AI \u5bf9 Markdown \u6b63\u6587\u8fdb\u884c\u5206\u6790\u3001\u6458\u8981\u3001\u7ffb\u8bd1\u7b49\n\nArgs:\n    url: \u6587\u7ae0\u94fe\u63a5\uff08\u5fc5\u9700\uff09\uff0c\u4ee5 http:// \u6216 https:// \u5f00\u5934\n    timeout: \u8bf7\u6c42\u8d85\u65f6\u65f6\u95f4\uff08\u79d2\uff09\uff0c\u9ed8\u8ba4 30\uff0c\u6700\u5927 60\n\nReturns:\n    JSON\u683c\u5f0f\u7684\u6587\u7ae0\u5185\u5bb9\uff0c\u5305\u542b\u5b8c\u6574 Markdown \u6b63\u6587\n\nExamples:\n    - read_article("
+ },
+ {
+  "repo": "ruvnet/ruflo",
+  "tool": "memory_import_claude",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'memory_import_claude' looks like it performs filesystem access but its parameter(s) ['projectPath'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "ruvnet__ruflo/v3/@claude-flow/cli/src/mcp-tools/memory-tools.ts",
+  "description": "Import Claude Code auto-memory files into AgentDB with ONNX vector embeddings. Reads ~/.claude/projects/*/memory/*.md files, parses YAML frontmatter, splits into sections, and stores with 384-dim embeddings for semantic search. Use allProjects=true to import from ALL Claude projects. Pass projectPath to override cwd-based detection (#1883 \u2014 required when Ruflo runs in WSL but Claude Code is on Win"
+ },
+ {
+  "repo": "0x4m4/hexstrike-ai",
+  "tool": "research_zero_day_opportunities",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped outbound network access",
+  "detail": "Tool 'research_zero_day_opportunities' looks like it performs outbound network access but its parameter(s) ['source_code_url'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "0x4m4__hexstrike-ai/hexstrike_mcp.py",
+  "description": "Automated zero-day vulnerability research using AI analysis and pattern recognition.\n\nArgs:\n    target_software: Software to research for vulnerabilities (e.g., \"nginx\", \"OpenSSL\")\n    analysis_depth: Depth of analysis (quick, standard, comprehensive)\n    source_code_url: URL to source code repository for enhanced analysis\n\nReturns:\n    Potential vulnerability areas with exploitation feasibility a"
+ },
+ {
+  "repo": "ruvnet/ruflo",
+  "tool": "http_fetch",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped outbound network access",
+  "detail": "Tool 'http_fetch' looks like it performs outbound network access but its parameter(s) ['url'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "ruvnet__ruflo/v3/@claude-flow/cli/src/mcp-tools/http-fetch-tools.ts",
+  "description": "ADR-164 \u00a75.1.8 \u2014 HTTP probe primitive for business-pod ops benches (synthetic 200/500 endpoint checks, third-party status pages). Default-secure: blocks file://, ftp://, RFC-1918 / loopback / link-local hosts unless CLAUDE_FLOW_HTTP_FETCH_ALLOW_PRIVATE=1, and rejects Authorization / Cookie / X-Auth-* headers unless CLAUDE_FLOW_HTTP_FETCH_ALLOW_AUTH=1. Hard 30s timeout (60s ceiling), response trunc"
+ },
+ {
+  "repo": "ruvnet/ruflo",
+  "tool": "hooks/post-edit",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped arbitrary code/command execution",
+  "detail": "Tool 'hooks/post-edit' looks like it performs arbitrary code/command execution but its parameter(s) ['filePath'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "ruvnet__ruflo/v3/mcp/tools/hooks-tools.ts",
+  "description": "Post-edit hook that records outcomes and learns from edit operations. Stores trajectories in ReasoningBank."
+ },
+ {
+  "repo": "AnkleBreaker-Studio/unity-mcp-server",
+  "tool": "unity_gameobject_delete",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'unity_gameobject_delete' looks like it performs filesystem access but its parameter(s) ['path'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "AnkleBreaker-Studio__unity-mcp-server/src/tools/editor-tools.js",
+  "description": "Delete a GameObject by path or name. Refuses if its runtime mesh is shared by other "
+ },
+ {
+  "repo": "ruvnet/ruflo",
+  "tool": "hooks_intelligence_pattern-search",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped arbitrary code/command execution",
+  "detail": "Tool 'hooks_intelligence_pattern-search' looks like it performs arbitrary code/command execution but its parameter(s) ['query'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "ruvnet__ruflo/v3/@claude-flow/cli/src/mcp-tools/hooks-tools.ts",
+  "description": "Search patterns using REAL vector search (HNSW when available, brute-force fallback) Use when native Bash hooks (via Claude Code\\'s settings.json) are wrong because you need Ruflo-side state \u2014 pattern persistence, neural training signals, model-routing learning, cost tracking, audit chain. For one-off shell commands, plain Bash hooks are fine."
+ },
+ {
+  "repo": "ruvnet/ruflo",
+  "tool": "hooks_pre-task",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped arbitrary code/command execution",
+  "detail": "Tool 'hooks_pre-task' looks like it performs arbitrary code/command execution but its parameter(s) ['filePath'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "ruvnet__ruflo/v3/@claude-flow/cli/src/mcp-tools/hooks-tools.ts",
+  "description": "Record task start and get agent suggestions with intelligent model routing (ADR-026) Use when native Bash hooks (via Claude Code\\'s settings.json) are wrong because you need Ruflo-side state \u2014 pattern persistence, neural training signals, model-routing learning, cost tracking, audit chain. For one-off shell commands, plain Bash hooks are fine."
+ },
+ {
+  "repo": "0x4m4/hexstrike-ai",
+  "tool": "gdb_peda_debug",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped arbitrary code/command execution",
+  "detail": "Tool 'gdb_peda_debug' looks like it performs arbitrary code/command execution but its parameter(s) ['commands', 'core_file'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "0x4m4__hexstrike-ai/hexstrike_mcp.py",
+  "description": "Execute GDB with PEDA for enhanced debugging and exploitation.\n\nArgs:\n    binary: Binary to debug\n    commands: GDB commands to execute\n    attach_pid: Process ID to attach to\n    core_file: Core dump file to analyze\n    additional_args: Additional GDB arguments\n\nReturns:\n    Enhanced debugging results with PEDA"
+ },
+ {
+  "repo": "0x4m4/hexstrike-ai",
+  "tool": "msfvenom_generate",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped arbitrary code/command execution",
+  "detail": "Tool 'msfvenom_generate' looks like it performs arbitrary code/command execution but its parameter(s) ['output_file'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "0x4m4__hexstrike-ai/hexstrike_mcp.py",
+  "description": "Execute MSFVenom for payload generation with enhanced logging.\n\nArgs:\n    payload: The payload to generate\n    format_type: Output format (exe, elf, raw, etc.)\n    output_file: Output file path\n    encoder: Encoder to use\n    iterations: Number of encoding iterations\n    additional_args: Additional MSFVenom arguments\n\nReturns:\n    Payload generation results"
+ },
+ {
+  "repo": "ruvnet/ruflo",
+  "tool": "write_file",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'write_file' looks like it performs filesystem access but its parameter(s) ['query'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "ruvnet__ruflo/ruflo/src/ruvocal/src/lib/wasm/wasm.worker.ts",
+  "description": "Write a file to the virtual filesystem (worker mock)"
+ },
+ {
+  "repo": "awslabs/mcp",
+  "tool": "delete_ecs_infrastructure",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'delete_ecs_infrastructure' looks like it performs filesystem access but its parameter(s) ['ecr_template_path', 'ecs_template_path'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "awslabs__mcp/src/ecs-mcp-server/awslabs/ecs_mcp_server/modules/delete.py",
+  "description": "Deletes ECS infrastructure created by the ECS MCP Server.\n\nWARNING: This tool is not intended for production usage and is best suited for\ntearing down prototyped work done with the ECS MCP Server.\n\nThis tool attempts to identify and delete CloudFormation stacks based on the\nprovided app name and template files. It will scan the user's CloudFormation stacks,\nusing the app name as a heuristic, and i"
+ },
+ {
+  "repo": "tugcantopaloglu/godot-mcp",
+  "tool": "game_http_request",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped outbound network access",
+  "detail": "Tool 'game_http_request' looks like it performs outbound network access but its parameter(s) ['url', 'nodePath'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "tugcantopaloglu__godot-mcp/src/index.ts",
+  "description": "HTTP GET/POST/PUT/DELETE with headers and body"
+ },
+ {
+  "repo": "tugcantopaloglu/godot-mcp",
+  "tool": "export_project",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'export_project' looks like it performs filesystem access but its parameter(s) ['outputPath', 'nodePath'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "tugcantopaloglu__godot-mcp/src/index.ts",
+  "description": "Export a Godot project using a preset"
+ },
+ {
+  "repo": "AnkleBreaker-Studio/unity-mcp-server",
+  "tool": "unity_particle_playback",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'unity_particle_playback' looks like it performs filesystem access but its parameter(s) ['path'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "AnkleBreaker-Studio__unity-mcp-server/src/tools/editor-tools.js",
+  "description": "Control particle system playback: play, stop, pause, restart, or clear."
+ },
+ {
+  "repo": "tugcantopaloglu/godot-mcp",
+  "tool": "game_reparent_node",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'game_reparent_node' looks like it performs filesystem access but its parameter(s) ['newParentPath', 'projectPath', 'scenePath', 'nodePath', 'scriptPath', 'resourcePath'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "tugcantopaloglu__godot-mcp/src/index.ts",
+  "description": "Move a node to a new parent in the running game\\'s scene tree"
+ },
+ {
+  "repo": "AnkleBreaker-Studio/unity-mcp-server",
+  "tool": "unity_scene_save",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'unity_scene_save' looks like it performs filesystem access but its parameter(s) ['parentPath'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "AnkleBreaker-Studio__unity-mcp-server/src/tools/editor-tools.js",
+  "description": "Save the current scene. A never-saved scene requires `path` (saving without one would "
+ },
+ {
+  "repo": "ruvnet/ruflo",
+  "tool": "browser/network-unroute",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'browser/network-unroute' looks like it performs filesystem access but its parameter(s) ['urlPattern'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "ruvnet__ruflo/v3/@claude-flow/browser/src/mcp-tools/browser-tools.ts",
+  "description": "Remove network route"
+ },
+ {
+  "repo": "tugcantopaloglu/godot-mcp",
+  "tool": "validate_script",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped arbitrary code/command execution",
+  "detail": "Tool 'validate_script' looks like it performs arbitrary code/command execution but its parameter(s) ['projectPath', 'scriptPath'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "tugcantopaloglu__godot-mcp/src/index.ts",
+  "description": "Check a GDScript file for syntax/type errors (headless, no run)"
+ },
+ {
+  "repo": "AnkleBreaker-Studio/unity-mcp-server",
+  "tool": "unity_shadergraph_create",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'unity_shadergraph_create' looks like it performs filesystem access but its parameter(s) ['path'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "AnkleBreaker-Studio__unity-mcp-server/src/tools/editor-tools.js",
+  "description": "Create a new Shader Graph from a template. Templates: urp_lit, urp_unlit, urp_sprite_lit, urp_sprite_unlit, urp_decal, hdrp_lit, hdrp_unlit, blank. Requires Shader Graph package."
+ },
+ {
+  "repo": "tugcantopaloglu/godot-mcp",
+  "tool": "game_shape_2d",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'game_shape_2d' looks like it performs filesystem access but its parameter(s) ['parentPath', 'nodePath'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "tugcantopaloglu__godot-mcp/src/index.ts",
+  "description": "Line2D/Polygon2D point manipulation"
+ },
+ {
+  "repo": "ruvnet/ruflo",
+  "tool": "workflow_validate",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'workflow_validate' looks like it performs filesystem access but its parameter(s) ['file'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "ruvnet__ruflo/v3/@claude-flow/cli/src/mcp-tools/workflow-tools.ts",
+  "description": "Structurally validate a workflow definition file (JSON) \u2014 checks it has a steps/stages/tasks array and that each step names an agent. Use when native Read is wrong because you want a parsed, structured pass/fail with error/warning lists and step/agent counts rather than eyeballing the file. For just reading the file, native Read is fine. (Basic checks today \u2014 a full workflow-schema validator is a "
+ },
+ {
+  "repo": "tugcantopaloglu/godot-mcp",
+  "tool": "modify_scene_node",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'modify_scene_node' looks like it performs filesystem access but its parameter(s) ['nodePath', 'projectPath', 'scenePath'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "tugcantopaloglu__godot-mcp/src/index.ts",
+  "description": "Modify node properties in a scene file (headless)"
+ },
+ {
+  "repo": "AnkleBreaker-Studio/unity-mcp-server",
+  "tool": "unity_script_update",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'unity_script_update' looks like it performs filesystem access but its parameter(s) ['path'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "AnkleBreaker-Studio__unity-mcp-server/src/tools/editor-tools.js",
+  "description": "Update the contents of an existing C# script file."
+ },
+ {
+  "repo": "AnkleBreaker-Studio/unity-mcp-server",
+  "tool": "unity_terrain_clear_trees",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'unity_terrain_clear_trees' looks like it performs filesystem access but its parameter(s) ['texturePath', 'prefabPath'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "AnkleBreaker-Studio__unity-mcp-server/src/tools/editor-tools.js",
+  "description": "Clear all trees from the terrain, optionally filtering by prototype index."
+ },
+ {
+  "repo": "awslabs/mcp",
+  "tool": "json_arrtrim",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'json_arrtrim' looks like it performs filesystem access but its parameter(s) ['path'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "awslabs__mcp/src/valkey-mcp-server/awslabs/valkey_mcp_server/tools/json.py",
+  "description": "Trim a JSON array to a specified range.\n\nArgs:\n    key: Valkey key name\n    start: Start index (inclusive)\n    stop: Stop index (inclusive)\n    path: JSONPath expression pointing to an array (default: \"$\")\n\nReturns:\n    Dict with \"status\" and \"new_length\"."
+ },
+ {
+  "repo": "AnkleBreaker-Studio/unity-mcp-server",
+  "tool": "unity_mppm_activate_scenario",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'unity_mppm_activate_scenario' looks like it performs filesystem access but its parameter(s) ['path'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "AnkleBreaker-Studio__unity-mcp-server/src/tools/editor-tools.js",
+  "description": "Load/activate a specific scenario by its asset path."
+ },
+ {
+  "repo": "AnkleBreaker-Studio/unity-mcp-server",
+  "tool": "unity_component_add",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped filesystem access",
+  "detail": "Tool 'unity_component_add' looks like it performs filesystem access but its parameter(s) ['gameObjectPath'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "AnkleBreaker-Studio__unity-mcp-server/src/tools/editor-tools.js",
+  "description": "Add a component to a GameObject. Supports built-in types (Rigidbody, BoxCollider, AudioSource, Light, Camera, etc.) and custom scripts."
+ },
+ {
+  "repo": "0x4m4/hexstrike-ai",
+  "tool": "paramspider_discovery",
+  "check": "permission_scope",
+  "severity": "high",
+  "title": "Unscoped arbitrary code/command execution",
+  "detail": "Tool 'paramspider_discovery' looks like it performs arbitrary code/command execution but its parameter(s) ['output_file'] accept any string with no enum/pattern/format constraint -- nothing in the schema limits what it can touch.",
+  "src": "0x4m4__hexstrike-ai/hexstrike_mcp.py",
+  "description": "Execute ParamSpider for parameter discovery with enhanced logging.\n\nArgs:\n    domain: Target domain\n    exclude: Extensions to exclude\n    output_file: Output file path\n    level: Crawling level\n    additional_args: Additional ParamSpider arguments\n\nReturns:\n    Parameter discovery results"
+ }
+]

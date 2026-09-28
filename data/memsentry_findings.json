@@ -1,0 +1,612 @@
+[
+ {
+  "repo": "assafelovic/gpt-researcher",
+  "file": ".cursorrules",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 1 is 5937 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 1,
+  "snippet": "# Project Overview This project, named GPT-Researcher, LLM based autonomous agent that conducts local and web research o..."
+ },
+ {
+  "repo": "1Panel-dev/MaxKB",
+  "file": "AGENTS.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 74 is 642 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 74,
+  "snippet": "`IModelProvider` (abstract) -> per-vendor impl in `impl/<vendor>_model_provider/` (OpenAI, Anthropic, Gemini, Qwen, Deep..."
+ },
+ {
+  "repo": "1Panel-dev/MaxKB",
+  "file": "AGENTS.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 80 is 554 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 80,
+  "snippet": "- `flow/` \u2014 the workflow engine. A graph of `step_node/*` nodes (start, ai_chat, search_knowledge, search_document, rera..."
+ },
+ {
+  "repo": "yusufkaraaslan/Skill_Seekers",
+  "file": "CLAUDE.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Suspicious base64-shaped blob in memory content",
+  "detail": "Line 62 contains a long base64-shaped token (117 chars). This may be legitimate (an embedded key or asset id), but is also a common shape for staged exfiltrated data or an encoded payload hidden inside otherwise-plain memory content.",
+  "line": 62,
+  "snippet": "claude/gemini/openai/markdown/minimax/opencode/kimi/deepseek..."
+ },
+ {
+  "repo": "yusufkaraaslan/Skill_Seekers",
+  "file": "CLAUDE.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 71 is 643 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 71,
+  "snippet": "3. `resolve_or_generate_with_status()` \u2014 for each detection: try `out_dir/<slug>.json` (cache from prior run), then `res..."
+ },
+ {
+  "repo": "yusufkaraaslan/Skill_Seekers",
+  "file": "CLAUDE.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 98 is 751 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 98,
+  "snippet": "`cli/document_skill_builder.py:DocumentSkillBuilder` sits between `SkillConverter` and the 9 document scrapers (epub, wo..."
+ },
+ {
+  "repo": "yusufkaraaslan/Skill_Seekers",
+  "file": "CLAUDE.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 102 is 504 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 102,
+  "snippet": "`unified_scraper.py` dispatches via the class-level `SOURCE_DISPATCH` table; `_scrape_with_converter()` is the shared en..."
+ },
+ {
+  "repo": "yusufkaraaslan/Skill_Seekers",
+  "file": "CLAUDE.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 202 is 842 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 202,
+  "snippet": "Every AI call goes through `AgentClient` (`src/skill_seekers/cli/agent_client.py`): central truncation gate, timeout pol..."
+ },
+ {
+  "repo": "yusufkaraaslan/Skill_Seekers",
+  "file": "CLAUDE.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 204 is 866 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 204,
+  "snippet": "- **API mode** (if API key set): Anthropic, Google Gemini, OpenAI, Moonshot/Kimi, MiniMax \u2014 detected in registry order; ..."
+ },
+ {
+  "repo": "stickerdaniel/linkedin-mcp-server",
+  "file": "AGENTS.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 25 is 641 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 25,
+  "snippet": "- **Detection must be locale-independent.** Classification logic \u2014 connection state, action availability, button identit..."
+ },
+ {
+  "repo": "stickerdaniel/linkedin-mcp-server",
+  "file": "AGENTS.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 278 is 839 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 278,
+  "snippet": "- The final non-empty line of every PR body must disclose every model used. CI skips the summary block Macroscope append..."
+ },
+ {
+  "repo": "stickerdaniel/linkedin-mcp-server",
+  "file": "AGENTS.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 344 is 530 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 344,
+  "snippet": "When you need up-to-date information about technologies used in this project, use the `btca-local` skill to search the a..."
+ },
+ {
+  "repo": "ruvnet/ruflo",
+  "file": "CLAUDE.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 1002 is 704 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 1002,
+  "snippet": "node -e 'const semver=require(\"semver\"),c=require(\"./v3/@claude-flow/cli/package.json\"),d={...c.dependencies,...c.option..."
+ },
+ {
+  "repo": "ruvnet/ruflo",
+  "file": "AGENTS.md",
+  "check": "instruction_injection",
+  "severity": "critical",
+  "title": "Standing instruction embedded in memory (coercive standing instruction)",
+  "detail": "Line 179 reads as an instruction directed at the assistant, not a fact about the user -- a future session would apply this on every turn rather than treating it as one-time context.",
+  "line": 179,
+  "snippet": "You must ALWAYS follow up with YOUR OWN execution."
+ },
+ {
+  "repo": "activepieces/activepieces",
+  "file": "CLAUDE.md",
+  "check": "hidden_payload",
+  "severity": "high",
+  "title": "Zero-width/invisible Unicode characters in memory content",
+  "detail": "Line 107 contains 1 invisible Unicode character(s) (U+200D). These are invisible to a human reviewer but are still tokenized and can be used to hide or split up text that would otherwise be caught by a plain-text scan.",
+  "line": 107,
+  "snippet": "'- apply the **`\u26d3\ufe0f\\u200d\ud83d\udca5 breaking-change`** label (in addition to the primary label above), **and**'"
+ },
+ {
+  "repo": "activepieces/activepieces",
+  "file": "CLAUDE.md",
+  "check": "hidden_payload",
+  "severity": "high",
+  "title": "Zero-width/invisible Unicode characters in memory content",
+  "detail": "Line 111 contains 1 invisible Unicode character(s) (U+200D). These are invisible to a human reviewer but are still tokenized and can be used to hide or split up text that would otherwise be caught by a plain-text scan.",
+  "line": 111,
+  "snippet": "'- **Non-rollbackable migrations are a separate axis** from customer-facing breaking changes: a migration that runs destructive DDL (`DROP TABLE`/`DROP COLUMN`, `ADD ... NOT NULL` without `DEFAULT`, et'"
+ },
+ {
+  "repo": "activepieces/activepieces",
+  "file": "CLAUDE.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 17 is 518 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 17,
+  "snippet": "- **Cross-cutting libraries live in `packages/core/*`**, ordered thin \u2192 thick: `core-utils`, `core-piece-types`, `core-f..."
+ },
+ {
+  "repo": "activepieces/activepieces",
+  "file": "CLAUDE.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 45 is 770 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 45,
+  "snippet": "- **npm dependencies go in the workspace that imports them, never the root `package.json`** \u2014 every workspace (api, work..."
+ },
+ {
+  "repo": "activepieces/activepieces",
+  "file": "CLAUDE.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 50 is 838 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 50,
+  "snippet": "- **Never write `void` in front of a promise** \u2014 When a promise is deliberately not awaited, end the chain with `.catch(..."
+ },
+ {
+  "repo": "activepieces/activepieces",
+  "file": "CLAUDE.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 55 is 568 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 55,
+  "snippet": "- **Prefer immutable data flow** \u2014 Functions should produce data by returning it, not by mutating an array/object the ca..."
+ },
+ {
+  "repo": "activepieces/activepieces",
+  "file": "CLAUDE.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 58 is 523 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 58,
+  "snippet": "- **Util file exports** \u2014 When a util file exposes multiple plain functions or constants (non-React), do not export them..."
+ },
+ {
+  "repo": "activepieces/activepieces",
+  "file": "CLAUDE.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 110 is 633 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 110,
+  "snippet": "- **Never `gh run rerun` a `pull_request`-triggered check to pick up a PR description edit.** A rerun replays the *origi..."
+ },
+ {
+  "repo": "activepieces/activepieces",
+  "file": "CLAUDE.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 111 is 517 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 111,
+  "snippet": "- **Non-rollbackable migrations are a separate axis** from customer-facing breaking changes: a migration that runs destr..."
+ },
+ {
+  "repo": "activepieces/activepieces",
+  "file": "AGENTS.md",
+  "check": "hidden_payload",
+  "severity": "high",
+  "title": "Zero-width/invisible Unicode characters in memory content",
+  "detail": "Line 103 contains 1 invisible Unicode character(s) (U+200D). These are invisible to a human reviewer but are still tokenized and can be used to hide or split up text that would otherwise be caught by a plain-text scan.",
+  "line": 103,
+  "snippet": "'- also apply the **`\u26d3\ufe0f\\u200d\ud83d\udca5 breaking-change`** label (in addition to the primary label above), and'"
+ },
+ {
+  "repo": "activepieces/activepieces",
+  "file": "AGENTS.md",
+  "check": "hidden_payload",
+  "severity": "high",
+  "title": "Zero-width/invisible Unicode characters in memory content",
+  "detail": "Line 105 contains 1 invisible Unicode character(s) (U+200D). These are invisible to a human reviewer but are still tokenized and can be used to hide or split up text that would otherwise be caught by a plain-text scan.",
+  "line": 105,
+  "snippet": "'- **Non-rollbackable migrations are a separate axis** from customer-facing breaking changes: a migration that runs destructive DDL (`DROP TABLE`/`DROP COLUMN`, `ADD ... NOT NULL` without `DEFAULT`, et'"
+ },
+ {
+  "repo": "activepieces/activepieces",
+  "file": "AGENTS.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 17 is 518 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 17,
+  "snippet": "- **Cross-cutting libraries live in `packages/core/*`**, ordered thin \u2192 thick: `core-utils`, `core-piece-types`, `core-f..."
+ },
+ {
+  "repo": "activepieces/activepieces",
+  "file": "AGENTS.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 45 is 770 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 45,
+  "snippet": "- **npm dependencies go in the workspace that imports them, never the root `package.json`** \u2014 every workspace (api, work..."
+ },
+ {
+  "repo": "activepieces/activepieces",
+  "file": "AGENTS.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 54 is 568 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 54,
+  "snippet": "- **Prefer immutable data flow** \u2014 Functions should produce data by returning it, not by mutating an array/object the ca..."
+ },
+ {
+  "repo": "activepieces/activepieces",
+  "file": "AGENTS.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 57 is 523 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 57,
+  "snippet": "- **Util file exports** \u2014 When a util file exposes multiple plain functions or constants (non-React), do not export them..."
+ },
+ {
+  "repo": "activepieces/activepieces",
+  "file": "AGENTS.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 105 is 517 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 105,
+  "snippet": "- **Non-rollbackable migrations are a separate axis** from customer-facing breaking changes: a migration that runs destr..."
+ },
+ {
+  "repo": "activepieces/activepieces",
+  "file": "packages/pieces/CLAUDE.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 37 is 528 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 37,
+  "snippet": "- Input side: `Property.File({ streaming: true })` resolves to `ApStreamingFile = { filename, extension?, size?, body: R..."
+ },
+ {
+  "repo": "activepieces/activepieces",
+  "file": "packages/server/AGENTS.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 23 is 614 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 23,
+  "snippet": "- **Reuse existing endpoints before adding new ones** \u2014 Before adding a new endpoint, scan the controller you're working..."
+ },
+ {
+  "repo": "activepieces/activepieces",
+  "file": "packages/server/AGENTS.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 27 is 846 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 27,
+  "snippet": "- **Changing the shape of a cached value requires a new cache key** \u2014 Anything written through `distributedStore` is rea..."
+ },
+ {
+  "repo": "activepieces/activepieces",
+  "file": "packages/server/AGENTS.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 69 is 541 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 69,
+  "snippet": "All structured logging goes through evlog \u2014 `logger.{info,warn,error,debug}({ fields }, msg)` and `wideEvent.set/error/t..."
+ },
+ {
+  "repo": "activepieces/activepieces",
+  "file": "packages/server/AGENTS.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 79 is 725 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 79,
+  "snippet": "**Canonical groups:** `flowRun: { id, status, environment }`, `flow: { id, version }`, `flowVersion: { id }`, `project: ..."
+ },
+ {
+  "repo": "activepieces/activepieces",
+  "file": "packages/server/AGENTS.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 92 is 912 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 92,
+  "snippet": "**Why both-`'0.0.0'` must fail closed (do not \"relax\" this back to an equality check):** \"both failed to read\" is not \"b..."
+ },
+ {
+  "repo": "activepieces/activepieces",
+  "file": "packages/server/AGENTS.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 96 is 1468 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 96,
+  "snippet": "Both processes front-load the read-failure **log** to **startup** so a mis-packaged deploy is loud immediately rather th..."
+ },
+ {
+  "repo": "activepieces/activepieces",
+  "file": "packages/server/engine/CLAUDE.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 6 is 610 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 6,
+  "snippet": "- Use `EngineGenericError` for engine-level failures \u2014 but **only when the failure means the engine or its own infrastru..."
+ },
+ {
+  "repo": "activepieces/activepieces",
+  "file": "packages/web/AGENTS.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 35 is 1164 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 35,
+  "snippet": "- **Use the predefined type scale, never an arbitrary font size.** This is Tailwind v4 and the theme lives in the `@them..."
+ },
+ {
+  "repo": "activepieces/activepieces",
+  "file": "packages/web/AGENTS.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 43 is 503 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 43,
+  "snippet": "- **Copy-to-clipboard UI must use `CopyToClipboardInput`** (from `@/components/custom/clipboard/copy-to-clipboard`). Nev..."
+ },
+ {
+  "repo": "triggerdotdev/trigger.dev",
+  "file": "apps/webapp/CLAUDE.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 126 is 605 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 126,
+  "snippet": "- **This repo enforces tenancy. Roles belong to the RBAC plugin.** Organization is a hard boundary on Cloud, which runs ..."
+ },
+ {
+  "repo": "triggerdotdev/trigger.dev",
+  "file": "apps/webapp/CLAUDE.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 127 is 519 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 127,
+  "snippet": "- **The permissive fallback is intentional, but it is not universal.** With no plugin loaded a session user or PAT gets ..."
+ },
+ {
+  "repo": "triggerdotdev/trigger.dev",
+  "file": "apps/webapp/CLAUDE.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 133 is 523 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 133,
+  "snippet": "- **A PAT route must resolve its target org/project scoped to the caller's membership** (`members: { some: { userId } }`..."
+ },
+ {
+  "repo": "triggerdotdev/trigger.dev",
+  "file": ".github/copilot-instructions.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 1 is 621 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 1,
+  "snippet": "This is the repo for Trigger.dev, a background jobs platform written in TypeScript. Our webapp at apps/webapp is a Remix..."
+ },
+ {
+  "repo": "triggerdotdev/trigger.dev",
+  "file": ".cursor/rules/writing-tasks.mdc",
+  "check": "instruction_injection",
+  "severity": "critical",
+  "title": "Standing instruction embedded in memory (coercive standing instruction)",
+  "detail": "Line 51 reads as an instruction directed at the assistant, not a fact about the user -- a future session would apply this on every turn rather than treating it as one-time context.",
+  "line": 51,
+  "snippet": "Instead, you MUST ALWAYS generate ONLY this pattern:"
+ },
+ {
+  "repo": "triggerdotdev/trigger.dev",
+  "file": ".cursor/rules/writing-tasks.mdc",
+  "check": "hidden_payload",
+  "severity": "high",
+  "title": "Zero-width/invisible Unicode characters in memory content",
+  "detail": "Line 355 contains 1 invisible Unicode character(s) (U+2060). These are invisible to a human reviewer but are still tokenized and can be used to hide or split up text that would otherwise be caught by a plain-text scan.",
+  "line": 355,
+  "snippet": "'1.\\tDefine a task using `\\u2060schedules.task()`'"
+ },
+ {
+  "repo": "triggerdotdev/trigger.dev",
+  "file": ".cursor/rules/webapp.mdc",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 26 is 566 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 26,
+  "snippet": "We originally the Trigger.dev \"Run Engine\" not as a single system, but just spread out all over the codebase, with no re..."
+ },
+ {
+  "repo": "modelcontextprotocol/typescript-sdk",
+  "file": "CLAUDE.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 73 is 779 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 73,
+  "snippet": "- **`@modelcontextprotocol/core`** (`packages/core/src/index.ts`) \u2014 Public Zod-schema package and the canonical home of ..."
+ },
+ {
+  "repo": "apify/apify-mcp-server",
+  "file": "AGENTS.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 50 is 1087 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 50,
+  "snippet": "- `tests/integration/suite.ts` wires the `stdio`, `2025-11-25` (streamable HTTP) and `2026-07-28` (stateless HTTP) trans..."
+ },
+ {
+  "repo": "neomjs/neo",
+  "file": "AGENTS.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 40 is 628 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 40,
+  "snippet": "There is no hold state. A lane done / blocked / merge-pending / peer-waiting is never a stop \u2014 jump to a different high-..."
+ },
+ {
+  "repo": "neomjs/neo",
+  "file": "AGENTS.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 61 is 502 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 61,
+  "snippet": "7. **No tracked file modification without a self-assigned ticket.** Self-assign + broadcast `[lane-claim]` to `AGENT:*` ..."
+ },
+ {
+  "repo": "neomjs/neo",
+  "file": "AGENTS.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 64 is 641 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 64,
+  "snippet": "10. **No AiConfig work without reading ADR-0019 first.** Before authoring OR reviewing ANY `ai/` config touch, read [`00..."
+ },
+ {
+  "repo": "neomjs/neo",
+  "file": "AGENTS.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 76 is 680 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 76,
+  "snippet": "Before asserting any factual claim, architectural premise, or framing in any public artifact (PR review, ticket body, Di..."
+ },
+ {
+  "repo": "neomjs/neo",
+  "file": "AGENTS.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 78 is 523 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 78,
+  "snippet": "**Prior-art sweep \u2014 the cheap pre-implementation / pre-PR-review V-B-A.** Before the first design sentence OR review ver..."
+ },
+ {
+  "repo": "neomjs/neo",
+  "file": "AGENTS.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 101 is 534 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 101,
+  "snippet": "**Accretion Defense.** Ask whether the layer beneath the one you are adding deserves to exist. In source: **adding engin..."
+ },
+ {
+  "repo": "neomjs/neo",
+  "file": "AGENTS.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 109 is 652 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 109,
+  "snippet": "Friction \u2192 gold is the **core value** governing all substrate evolution \u2014 the meta-mechanism by which rules and values t..."
+ },
+ {
+  "repo": "neomjs/neo",
+  "file": "AGENTS.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 111 is 1061 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 111,
+  "snippet": "**Tier hierarchy \u2014 core values > values > rules**: substrate has three tiers. **Core values** (\u00a7verify_before_assert V-B..."
+ },
+ {
+  "repo": "neomjs/neo",
+  "file": "AGENTS.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 144 is 513 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 144,
+  "snippet": "**Current reality:** Neo's swarm operates **Flat Peer-Team** for named cross-family maintainers (`@neo-opus-ada`, `@neo-..."
+ },
+ {
+  "repo": "neomjs/neo",
+  "file": "AGENTS.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 154 is 700 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 154,
+  "snippet": "**Negative Constraint:** You are NOT a \"helpful assistant\"; you are a core architectural maintainer. Explicitly ban defe..."
+ },
+ {
+  "repo": "neomjs/neo",
+  "file": "AGENTS.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 181 is 566 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 181,
+  "snippet": "- **Authoring / app-work gate (`apps/**`):** Read 1\u20132 siblings and load `src/Neo.mjs`, `src/core/Base.mjs`, `src/state/P..."
+ },
+ {
+  "repo": "bvisible/mcp-ssh-manager",
+  "file": "CLAUDE.md",
+  "check": "hidden_payload",
+  "severity": "medium",
+  "title": "Abnormally long line in memory content",
+  "detail": "Line 227 is 534 characters long, well past what a normal memory entry needs. Unusually long lines are a common way to smuggle a bulk hidden instruction or staged exfiltration payload past a quick skim.",
+  "line": 227,
+  "snippet": "7. **Server Groups**: Membership is the union of two sources \u2014 the explicit lists in `.server-groups.json` (created via ..."
+ }
+]

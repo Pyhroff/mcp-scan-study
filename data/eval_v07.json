@@ -1,0 +1,49 @@
+{
+ "permission_scope_high_sample40": {
+  "before": {
+   "accurate": 15,
+   "weak": 12,
+   "false_positive": 13
+  },
+  "after": {
+   "accurate": 12,
+   "weak": 3,
+   "false_positive": 3
+  },
+  "fp_removed_pct": 76.9,
+  "accurate_retained_pct": 80.0,
+  "strict_precision_before_pct": 37.5,
+  "strict_precision_after_pct": 66.7,
+  "strict_ci95_after": [
+   43.7,
+   83.7
+  ],
+  "n_after": 18
+ },
+ "permission_scope_high_heldout40": {
+  "before": {
+   "accurate": 15,
+   "weak": 9,
+   "false_positive": 16
+  },
+  "after": {
+   "accurate": 9,
+   "weak": 3,
+   "false_positive": 2
+  },
+  "fp_removed_pct": 87.5,
+  "accurate_retained_pct": 60.0,
+  "strict_precision_before_pct": 37.5,
+  "strict_precision_after_pct": 64.3,
+  "strict_ci95_after": [
+   38.8,
+   83.7
+  ],
+  "n_after": 14
+ },
+ "corpus_high_permission_scope": {
+  "v06": 761,
+  "v07": 541,
+  "reduction_pct": 28.9
+ }
+}

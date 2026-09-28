@@ -1,0 +1,37 @@
+{
+ "repos_in_corpus": 90,
+ "repos_with_extracted_tools": 53,
+ "tools_extracted": 4898,
+ "mcpaudit_findings": 1018,
+ "mcpaudit_by_severity": {
+  "low": 29,
+  "high": 765,
+  "medium": 224
+ },
+ "mcpaudit_by_check": {
+  "description_scan: Empty tool description": 29,
+  "permission_scope: Unscoped outbound network access": 83,
+  "description_scan: Unusually long tool description": 200,
+  "permission_scope: Description admits unscoped access": 8,
+  "permission_scope: Unscoped filesystem access": 549,
+  "permission_scope: Unscoped arbitrary code/command execution": 129,
+  "description_scan: Cross-tool instruction": 16,
+  "description_scan: Model-directed instruction in description (imperative directive aimed at the model)": 3,
+  "description_scan: Model-directed instruction in description (instructs the model to act without visible acknowledgment)": 1
+ },
+ "repos_with_mcpaudit_findings": 39,
+ "context_files_scanned": 170,
+ "repos_with_context_files": 43,
+ "memsentry_findings": 61,
+ "memsentry_by_check": {
+  "hidden_payload: Abnormally long line in memory content": 53,
+  "hidden_payload: Suspicious base64-shaped blob in memory content": 1,
+  "instruction_injection: Standing instruction embedded in memory (coercive standing instruction)": 2,
+  "hidden_payload: Zero-width/invisible Unicode characters in memory content": 5
+ },
+ "memsentry_by_severity": {
+  "medium": 54,
+  "critical": 2,
+  "high": 5
+ }
+}
