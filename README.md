@@ -1,6 +1,6 @@
 # mcp-scan-study
 
-An empirical evaluation of two static AI-security scanners, [mcpaudit](https://github.com/Pyhroff/mcpaudit) and [memsentry](https://github.com/Pyhroff/memsentry), on public MCP-server repositories, with hand-labelled precision measurements and the scanner patches that came out of them.
+An empirical evaluation of two static AI-security scanners, mcpaudit and memsentry, on public MCP-server repositories, with hand-labelled precision measurements and the scanner patches that came out of them.
 
 Full write-up: **[REPORT.md](REPORT.md)**. Scan date: 2026-09-28. Single reviewer.
 
