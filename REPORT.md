@@ -37,7 +37,7 @@ Raw counts: mcpaudit 1,018 findings (765 high, 224 medium, 29 low) across 39 rep
 - Dynamic (LLM) checks were not run.
 
 ## Follow-up: mcpaudit v0.7 patch (held-out evaluation)
-The failure modes above were turned into a patch (`patches/mcpaudit-0.7.patch`, applied copy in `patches/mcpaudit-0.7/`; the original `mcpaudit` folder was not modified). All 49 existing tests still pass.
+The failure modes above were turned into a patch (`patches/mcpaudit-0.7.patch`, applied copy in `patches/mcpaudit-0.7/`; the original `mcpaudit` folder was not modified). The applied copy is not committed; to rerun `scripts/eval_v07.py`, `pip install pyhroff-mcpaudit==0.7.0`, which is this patch as released and reproduces `data/eval_v07.json` exactly. All 49 existing tests still pass.
 
 Method: a seeded shuffle of the 761 HIGH permission_scope findings gave a dev sample (first 40, used to find failure modes) and a held-out sample (next 40, labelled before the patch was written). Labels: `data/labels.json`; evaluation: `scripts/eval_v07.py`, `data/eval_v07.json`.
 
