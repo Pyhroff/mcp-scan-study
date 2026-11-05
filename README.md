@@ -1,5 +1,8 @@
 # mcp-scan-study
 
+[![CI](https://github.com/Pyhroff/mcp-scan-study/actions/workflows/ci.yml/badge.svg)](https://github.com/Pyhroff/mcp-scan-study/actions/workflows/ci.yml)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 An empirical evaluation of two static AI-security scanners, mcpaudit and memsentry, on public MCP-server repositories, with hand-labelled precision measurements and the scanner patches that came out of them.
 
 Full write-up: **[REPORT.md](REPORT.md)**. Scan date: 2026-09-28. Single reviewer.
@@ -22,7 +25,18 @@ patches/        mcpaudit-0.7.patch and memsentry-1.1.patch (the scanner changes)
 scripts/        collect, extract, scan, analyze, and evaluation scripts
 ```
 
-## Reproducing
+## Verify the published numbers
+
+The headline figures can be checked without re-running the scan: the tests recompute `data/analysis.json` and `data/eval_v07.json` from the committed labels and manifests and compare the numbers quoted in this README and REPORT.md with the data.
+
+```bash
+pip install pytest "pyhroff-mcpaudit==0.7.0"   # 0.7.0 is patches/mcpaudit-0.7.patch as released
+pytest -q tests
+```
+
+The labelled findings and corpus SHAs here also feed [aisec-suite](https://github.com/Pyhroff/aisec-suite)'s benchmark workflow, which re-derives its detector and reachability numbers from this repository every week.
+
+## Reproducing the scan
 
 The scripts read the scanner repositories from sibling directories and clone the corpus repos into `~/mcp-study-work`. In order:
 
