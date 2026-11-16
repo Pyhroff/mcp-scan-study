@@ -25,6 +25,24 @@ patches/        mcpaudit-0.7.patch and memsentry-1.1.patch (the scanner changes)
 scripts/        collect, extract, scan, analyze, and evaluation scripts
 ```
 
+## Pipeline
+
+```mermaid
+flowchart LR
+    C["collect.py / collect_fresh.py<br/>GitHub API selection"] --> CJ[("corpus.json<br/>fresh_corpus.json<br/>(commit SHAs)")]
+    CJ --> E["extract_manifests*.py<br/>static extraction, nothing executed"]
+    E --> MJ[("manifests.json<br/>manifests_fresh.json")]
+    MJ --> R["run_scans.py / fresh_run.py<br/>mcpaudit + memsentry"]
+    R --> FJ[("mcpaudit_findings.json<br/>memsentry_findings.json<br/>summary.json")]
+    FJ --> L["hand labels<br/>labels.json"]
+    L --> A["analyze.py<br/>Wilson intervals"]
+    L --> V["eval_v07.py / eval_memsentry.py<br/>held-out evaluation of patches"]
+    A --> AJ[("analysis.json")]
+    V --> VJ[("eval_v07.json<br/>eval_memsentry.json")]
+    AJ --> T["tests/<br/>recompute and compare README / REPORT numbers"]
+    VJ --> T
+```
+
 ## Verify the published numbers
 
 The headline figures can be checked without re-running the scan: the tests recompute `data/analysis.json` and `data/eval_v07.json` from the committed labels and manifests and compare the numbers quoted in this README and REPORT.md with the data.
